@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2018-11-10T21:52:14.714-05:00
+  initializedAtString: 2018-11-10T21:52:14.714-05:00
+  log:
+  - commitID: e68bbcb26807954f181e89f4fec5073d415defe7
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: Test commit
+    description: Test commit
+    timeString: 2018-11-10T21:35:31.000-05:00
+    commitTimeString: 2018-11-10T21:35:31.000-05:00
+    changes:
+    - path: cirno.txt
+      fullPath: D:\Unity\IceGymGame\cirno.txt
+      projectPath: cirno.txt
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 9597c6687bfdb6e4e4bf82d0c710bbfa9f6db7c8
+    mergeA: 
+    mergeB: 
+    authorName: Peter Ly
+    authorEmail: 36087674+WindLark@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: Initial commit
+    timeString: 2018-10-31T16:59:14.000-04:00
+    commitTimeString: 2018-10-31T16:59:14.000-04:00
+    changes:
+    - path: README.md
+      fullPath: D:\Unity\IceGymGame\README.md
+      projectPath: README.md
+      originalPath: 
+      status: 4
+      staged: 0
