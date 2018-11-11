@@ -51,7 +51,7 @@ public class BoardController : MonoBehaviour {
 				m_CameraOne.enabled=false;
 			}
 			//Otherwise, if the Main Camera is not enabled, switch back to the Main Camera on a key press
-			else if (!m_CameraOne.enabled==false)
+			else if (m_CameraOne.enabled==false)
 			{
 				//Disable the second camera
 				m_CameraTwo.enabled=false;

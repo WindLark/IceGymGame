@@ -77,7 +77,14 @@ public class PlayerController : MonoBehaviour
 			*/
 		}
 	}
-	//"Activation" is when the player object is triggered by 
+	//"Activation" is when the player object is triggered by the space key in the BoardController
+	//we use this to update the player's position accordingly
+	//at some point we will need to check if swapping from 3D back to 2D will produce a collision on the 2d board,
+	//and disable swaps if it does
 	public void onActivation(){
+		GameObject boardControllerTemp = GameObject.Find ("BoardControllerObject");
+		//get the stored x and z coordinates and update the object.
+		Vector2 current_position = boardControllerTemp.GetComponent<BoardController>().returnCurrentPlayerPosition();
+		gameObject.transform.position = new Vector3(current_position[0],gameObject.transform.position.y,current_position[1]);
 	}
 }
