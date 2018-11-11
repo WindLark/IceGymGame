@@ -50,41 +50,21 @@ public class PlayerController : MonoBehaviour
 			}
 
 			//I moved the camera code to boardcontroller - we don't want it to tied to the player
-			//when we have two players
-			/*
-			//Press the Space Button to switch cameras
-	        if (Input.GetKeyDown(KeyCode.Space))
-	        {
-	            //Check that the Main Camera is enabled in the Scene, then switch to the other Camera on a key press
-	            if (m_MainCamera.enabled)
-	            {
-	                //Enable the second Camera
-	                m_CameraTwo.enabled = true;
-
-	                //The Main first Camera is disabled
-	                m_MainCamera.enabled = false;
-	            }
-	            //Otherwise, if the Main Camera is not enabled, switch back to the Main Camera on a key press
-	            else if (!m_MainCamera.enabled)
-	            {
-	                //Disable the second camera
-	                m_CameraTwo.enabled = false;
-
-	                //Enable the Main Camera
-	                m_MainCamera.enabled = true;
-	            }
-	        }
-			*/
 		}
 	}
 	//"Activation" is when the player object is triggered by the space key in the BoardController
 	//we use this to update the player's position accordingly
 	//at some point we will need to check if swapping from 3D back to 2D will produce a collision on the 2d board,
 	//and disable swaps if it does
-	public void onActivation(){
+	public void activateAndUpdate(){
 		GameObject boardControllerTemp = GameObject.Find ("BoardControllerObject");
 		//get the stored x and z coordinates and update the object.
 		Vector2 current_position = boardControllerTemp.GetComponent<BoardController>().returnCurrentPlayerPosition();
 		gameObject.transform.position = new Vector3(current_position[0],gameObject.transform.position.y,current_position[1]);
+	}
+
+	//change player's activated status
+	public void setActivatedStatus(bool status){
+		activated = status;
 	}
 }
