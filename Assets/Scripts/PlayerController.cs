@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
         //Use this to disable secondary Camera
         //m_CameraTwo.enabled = false;
     }
-    void Update()
+    void FixedUpdate()
     {	
 		//THE PLAYER ONLY RESPONDS IF THEY'RE THE ACTIVE PLAYER
 		if(activated == true ){
@@ -43,10 +43,12 @@ public class PlayerController : MonoBehaviour
 
 			if (v3Velocity == Vector3.zero) {
 				var x = Input.GetAxis("Vertical") * Time.deltaTime * 5.0f;
-				var z = Input.GetAxis("Horizontal") * Time.deltaTime * 5.0f;
-
 				transform.Translate(x, 0, 0);
-				transform.Translate(0, 0, -z);
+				if (x == 0) {
+					var z = Input.GetAxis("Horizontal") * Time.deltaTime * 5.0f;
+					transform.Translate(0, 0, -z);
+				}
+				
 			}
 
 			//I moved the camera code to boardcontroller - we don't want it to tied to the player
