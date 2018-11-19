@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\BoardController.cs" />
      <Compile Include="Assets\Scripts\ObjectTracker.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\VictoryController.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/Unity/IceGymGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

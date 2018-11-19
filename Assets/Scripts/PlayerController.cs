@@ -73,4 +73,5 @@ public class PlayerController : MonoBehaviour
 	public void setActivatedStatus(bool status){
 		activated = status;
 	}
+
 }

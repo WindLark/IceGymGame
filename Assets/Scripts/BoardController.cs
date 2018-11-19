@@ -71,7 +71,6 @@ public class BoardController : MonoBehaviour {
 			//detects the floor and gives false positive
 			// for more information, see Unity Physics.BoxCheck documentation.
 			Vector2 currentPosition = returnCurrentPlayerPosition();
-			Debug.Log(1 << LayerMask.NameToLayer("Players"));
 			//this bit-based layermask ensures that we only look at the "Players" layer
 			//we want the opposite of that - to check every non "Players" layer
 			int layermask_player = 1 << LayerMask.NameToLayer("Players");
