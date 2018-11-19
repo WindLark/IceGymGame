@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
@@ -6,7 +7,7 @@ public class PlayerController : MonoBehaviour
     Camera m_MainCamera;
     //This is the second Camera and is assigned in inspector
 	public Camera m_CameraTwo;
-
+	Material material;
 	//I moved all the camera code to BoardController.cs:
 	//We don't want it to tied to the player when we have two players running around
 
@@ -22,7 +23,10 @@ public class PlayerController : MonoBehaviour
         //This enables Main Camera
         //m_MainCamera.enabled = true;
         //Use this to disable secondary Camera
-        //m_CameraTwo.enabled = false;
+		//m_CameraTwo.enabled = false;
+		//player is cyan by default
+		material = GetComponent<Renderer>().material;
+		material.color = Color.cyan;
     }
     void FixedUpdate()
     {	
