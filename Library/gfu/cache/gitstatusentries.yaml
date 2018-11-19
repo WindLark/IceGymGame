@@ -12,24 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-11-19T06:53:51.676-05:00
+  lastUpdatedAtString: 2018-11-19T07:00:56.142-05:00
   initializedAtString: 2018-11-18T23:21:57.577-05:00
   entries:
-  - path: Assets\Scenes\Level1.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
-    projectPath: Assets\Scenes\Level1.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scenes\Level2.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level2.unity
-    projectPath: Assets\Scenes\Level2.unity
+  - path: Assets\Prefabs\victory_block.prefab
+    fullPath: D:\Unity\IceGymGame\Assets\Prefabs\victory_block.prefab
+    projectPath: Assets\Prefabs\victory_block.prefab
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Scenes\Level2.unity.meta
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level2.unity.meta
-    projectPath: Assets\Scenes\Level2.unity.meta
+  - path: Assets\Prefabs\victory_block.prefab.meta
+    fullPath: D:\Unity\IceGymGame\Assets\Prefabs\victory_block.prefab.meta
+    projectPath: Assets\Prefabs\victory_block.prefab.meta
     originalPath: 
     status: 1
     staged: 0
@@ -38,12 +32,6 @@ MonoBehaviour:
     projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\CrashedAssetImports.txt
-    fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
@@ -75,15 +63,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
-    fullPath: D:\Unity\IceGymGame\Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
-    projectPath: Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
+  - path: Library\metadata\3c\3cdbcd16db9fe75488e0d4a8943bcba7
+    fullPath: D:\Unity\IceGymGame\Library\metadata\3c\3cdbcd16db9fe75488e0d4a8943bcba7
+    projectPath: Library\metadata\3c\3cdbcd16db9fe75488e0d4a8943bcba7
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\38\38cad95dea1943a4ca0011302740b9b3.info
-    fullPath: D:\Unity\IceGymGame\Library\metadata\38\38cad95dea1943a4ca0011302740b9b3.info
-    projectPath: Library\metadata\38\38cad95dea1943a4ca0011302740b9b3.info
+  - path: Library\metadata\3c\3cdbcd16db9fe75488e0d4a8943bcba7.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\3c\3cdbcd16db9fe75488e0d4a8943bcba7.info
+    projectPath: Library\metadata\3c\3cdbcd16db9fe75488e0d4a8943bcba7.info
     originalPath: 
     status: 1
     staged: 0

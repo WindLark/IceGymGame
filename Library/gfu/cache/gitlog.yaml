@@ -12,9 +12,95 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-11-19T06:47:14.016-05:00
+  lastUpdatedAtString: 2018-11-19T06:54:45.489-05:00
   initializedAtString: 2018-11-19T05:51:23.151-05:00
   log:
+  - commitID: 11c92158721558f2ee999bb590736bf8f5c91696
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: Level 2 Added
+    description: "Level 2 Added\r\n\r\nAdded a 2nd level to demonstrate that it is
+      possible to move between levels on success and to demo the possibilities of
+      this game concept."
+    timeString: 2018-11-19T06:54:40.000-05:00
+    commitTimeString: 2018-11-19T06:54:40.000-05:00
+    changes:
+    - path: Assets\Scenes\Level1.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level2.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level2.unity
+      projectPath: Assets\Scenes\Level2.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Level2.unity.meta
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level2.unity.meta
+      projectPath: Assets\Scenes\Level2.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\CrashedAssetImports.txt
+      fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
+      projectPath: Library\CrashedAssetImports.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
+      fullPath: D:\Unity\IceGymGame\Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
+      projectPath: Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\38\38cad95dea1943a4ca0011302740b9b3.info
+      fullPath: D:\Unity\IceGymGame\Library\metadata\38\38cad95dea1943a4ca0011302740b9b3.info
+      projectPath: Library\metadata\38\38cad95dea1943a4ca0011302740b9b3.info
+      originalPath: 
+      status: 4
+      staged: 0
   - commitID: c57d93a5c338751bbc9fe728db8f44c225372928
     mergeA: 
     mergeB: 
