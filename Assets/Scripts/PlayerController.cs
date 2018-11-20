@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 	//that deduces whether we're starting in 2D or 3D and then activate all the objects with the appropriate tag(s).
 	//by default, the 2DPlayer is checked as active and the 3DPlayer is left as not active
 	public bool activated;
+	public float velocity;
 	void Start()
     {
         //This gets the Main Camera from the Scene
@@ -44,17 +45,32 @@ public class PlayerController : MonoBehaviour
 
 			Rigidbody rb = GetComponent<Rigidbody>();
 	 		Vector3 v3Velocity = rb.velocity;
-
-			if (v3Velocity == Vector3.zero) {
-				var x = Input.GetAxis("Vertical") * Time.deltaTime * 5.0f;
-				transform.Translate(x, 0, 0);
-				if (x == 0) {
-					var z = Input.GetAxis("Horizontal") * Time.deltaTime * 5.0f;
-					transform.Translate(0, 0, -z);
+			var iceActive = false;
+			var x = Input.GetAxis("Vertical");
+			var z = Input.GetAxis("Horizontal");
+			// var x = Input.GetAxis("Vertical") * Time.deltaTime * 5.0f;
+			// var z = Input.GetAxis("Horizontal") * Time.deltaTime * 5.0f;
+			var velocity = 30f * Time.deltaTime;
+			Debug.Log ("X Velocity: " + v3Velocity.x);
+			Debug.Log ("Z Velocity: " + v3Velocity.z);
+			Debug.Log("" + x);
+			Debug.Log("" + z);
+			if (x == 1 || x == -1) {
+				if (x > 0) {
+					transform.Translate(velocity, 0, 0);
 				}
-				
+				else {
+					transform.Translate(-velocity, 0, 0);
+				}
 			}
-
+			else if (z == 1 || z == -1) {
+				if (z > 0) {
+					transform.Translate(0, 0, -velocity);
+				}
+				else {
+					transform.Translate(0, 0, velocity);
+				}
+			}
 			//I moved the camera code to boardcontroller - we don't want it to tied to the player
 		}
 	}
