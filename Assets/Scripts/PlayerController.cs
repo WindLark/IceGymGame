@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
 	//by default, the 2DPlayer is checked as active and the 3DPlayer is left as not active
 	public bool activated;
 	public float velocity;
+
 	void Start()
     {
         //This gets the Main Camera from the Scene
@@ -45,30 +46,39 @@ public class PlayerController : MonoBehaviour
 
 			Rigidbody rb = GetComponent<Rigidbody>();
 	 		Vector3 v3Velocity = rb.velocity;
-			var iceActive = false;
+			//var iceActive = false;
 			var x = Input.GetAxis("Vertical");
 			var z = Input.GetAxis("Horizontal");
 			// var x = Input.GetAxis("Vertical") * Time.deltaTime * 5.0f;
 			// var z = Input.GetAxis("Horizontal") * Time.deltaTime * 5.0f;
-			var velocity = 30f * Time.deltaTime;
+			//var velocity = 30f * Time.deltaTime;
+			var velocity = 50f;
 			Debug.Log ("X Velocity: " + v3Velocity.x);
 			Debug.Log ("Z Velocity: " + v3Velocity.z);
 			Debug.Log("" + x);
 			Debug.Log("" + z);
-			if (x == 1 || x == -1) {
+			//if (x == 1 || x == -1) {
+			if (x != 0 ) {
 				if (x > 0) {
-					transform.Translate(velocity, 0, 0);
+					//transform.Translate(velocity, 0, 0);
+					//turns out we don't even need to implement something to force the velocity back to zero
+					//because unity handles that with its own physics
+					rb.velocity = new Vector3(velocity, 0, 0);
 				}
 				else {
-					transform.Translate(-velocity, 0, 0);
+					//transform.Translate(-velocity, 0, 0);
+					rb.velocity = new Vector3(-velocity, 0, 0);
 				}
 			}
-			else if (z == 1 || z == -1) {
+			//else if (z == 1 || z == -1) {
+			else if (z != 0 ) {
 				if (z > 0) {
-					transform.Translate(0, 0, -velocity);
+					//transform.Translate(0, 0, -velocity);
+					rb.velocity = new Vector3(0, 0, -velocity);
 				}
 				else {
-					transform.Translate(0, 0, velocity);
+					//transform.Translate(0, 0, velocity);
+					rb.velocity = new Vector3(0, 0, velocity);
 				}
 			}
 			//I moved the camera code to boardcontroller - we don't want it to tied to the player
