@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BoardController : MonoBehaviour {
 	//list of ObjectTracker coordinates - each ObjectTracker should correspond to a MOVING Player (or Hazard) in play
@@ -19,9 +20,14 @@ public class BoardController : MonoBehaviour {
 	private GameObject threeDPlayer;
 
 
-	public AudioSource[] sounds;
-	public AudioSource deny_shift;
-	public AudioSource allow_shift;
+	private AudioSource[] sounds;
+	private AudioSource deny_shift;
+	private AudioSource allow_shift;
+
+	//time limit that we set depending on what level we're on
+	public float timeLimit;
+
+	public Text timeLimitDisplay;
 
 
 	void Start () {
@@ -54,10 +60,17 @@ public class BoardController : MonoBehaviour {
 		//we will operate under the assumption only ONE object in the list is ever "playerObjectTracker".
 		//this is important, because both the 2DPlayer and 3DPlayer object want to follow it
 		coordinateList.Add(playerObjectTracker);
+
+		//timer text setting:
+		updateTimeLimit();
 	}
 
 	// Update is called once per frame
 	void Update () {
+		//subtract time from timer
+			timeLimit -= Time.deltaTime;
+			updateTimeLimit ();
+		//
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			//FIRST WE MUST CHECK THAT THE SWITCH DOESN'T RESULT IN THE 2D MODE PLAYER COLLIDING WITH AN OBJECT
@@ -183,5 +196,15 @@ public class BoardController : MonoBehaviour {
 		player_2D_material.color = Color.red;
 		player_3D_material.color = Color.red;
 
+	}
+
+	private void updateTimeLimit(){
+		string minutes = Mathf.Floor((float)(timeLimit / 60f)).ToString();
+		string seconds = Mathf.Floor((float)(timeLimit % 60f)).ToString();
+
+		timeLimitDisplay.text = "Time Left: " + minutes + " : " + seconds;
+		//timeLimitDisplay.text = "Time Left Danny Devito";
+		//Debug.Log ("Time Left: " + timeLimit.ToString());
+		//Debug.Log (timeLimitDisplay.text);
 	}
 }
