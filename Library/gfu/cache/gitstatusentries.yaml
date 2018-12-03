@@ -12,42 +12,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-03T08:25:24.795-05:00
-  initializedAtString: 2018-12-03T02:56:39.643-05:00
+  lastUpdatedAtString: 2018-12-03T12:19:00.168-05:00
+  initializedAtString: 2018-12-03T12:06:38.702-05:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scenes\Level1.unity
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assets\Scenes\Level1.unity
-    projectPath: Assets\Scenes\Level1.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scripts\Enemy_Pathing.cs
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assets\Scripts\Enemy_Pathing.cs
-    projectPath: Assets\Scripts\Enemy_Pathing.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scripts\Enemy_Pathing.cs.meta
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assets\Scripts\Enemy_Pathing.cs.meta
-    projectPath: Assets\Scripts\Enemy_Pathing.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scripts\PlayerController.cs
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assets\Scripts\PlayerController.cs
-    projectPath: Assets\Scripts\PlayerController.cs
+  - path: Assets\Scenes\Level2.unity
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assets\Scenes\Level2.unity
+    projectPath: Assets\Scenes\Level2.unity
     originalPath: 
     status: 3
     staged: 0
   - path: Library\assetDatabase3
     fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\assetDatabase3
     projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CrashedAssetImports.txt
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
     originalPath: 
     status: 3
     staged: 0
@@ -81,77 +75,17 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da
-    projectPath: Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da.info
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da.info
-    projectPath: Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
-    projectPath: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+  - path: Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
+    projectPath: Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ShaderCache\0\05f26f85e1e95524fa4b837f48caf6fa.bin
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ShaderCache\0\05f26f85e1e95524fa4b837f48caf6fa.bin
-    projectPath: Library\ShaderCache\0\05f26f85e1e95524fa4b837f48caf6fa.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\1\1cea00471b47243f25c6a5a2f3180099.bin
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ShaderCache\1\1cea00471b47243f25c6a5a2f3180099.bin
-    projectPath: Library\ShaderCache\1\1cea00471b47243f25c6a5a2f3180099.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\3\3aee1d6a8646c70e0fc78e09b02aaa9e.bin
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ShaderCache\3\3aee1d6a8646c70e0fc78e09b02aaa9e.bin
-    projectPath: Library\ShaderCache\3\3aee1d6a8646c70e0fc78e09b02aaa9e.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\6\64eee3cfddb4465f067b62ffb9e6a0e3.bin
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ShaderCache\6\64eee3cfddb4465f067b62ffb9e6a0e3.bin
-    projectPath: Library\ShaderCache\6\64eee3cfddb4465f067b62ffb9e6a0e3.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\c\c76363324c64dc687f65c68844f87a40.bin
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ShaderCache\c\c76363324c64dc687f65c68844f87a40.bin
-    projectPath: Library\ShaderCache\c\c76363324c64dc687f65c68844f87a40.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\c\cd0439312a2781cf891accea327ae868.bin
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ShaderCache\c\cd0439312a2781cf891accea327ae868.bin
-    projectPath: Library\ShaderCache\c\cd0439312a2781cf891accea327ae868.bin
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
