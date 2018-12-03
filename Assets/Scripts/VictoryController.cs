@@ -10,8 +10,13 @@ public class VictoryController : MonoBehaviour {
 	{
 		if (other.gameObject.CompareTag ("2DPlayer") || other.gameObject.CompareTag ("3DPlayer") )
 		{
+			GameObject boardControllerObject = GameObject.Find("BoardControllerObject"); 
+			boardControllerObject.GetComponent<BoardController>().setTimeMovingFalse();
+
+			/* deprecated base code, menu handling will now control going to next level instead
 			Debug.Log ("Hello");
 			SceneManager.LoadSceneAsync (nextLevel);
+			*/
 		}
 	}
 }

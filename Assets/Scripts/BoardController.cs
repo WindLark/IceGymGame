@@ -27,7 +27,10 @@ public class BoardController : MonoBehaviour {
 	//time limit that we set depending on what level we're on
 	public float timeLimit;
 
-	public Text timeLimitDisplay;
+	//public Text timeLimitDisplay;
+	public Canvas timeLimitCanvas;
+
+	private bool timeStillMoving;
 
 
 	void Start () {
@@ -61,15 +64,18 @@ public class BoardController : MonoBehaviour {
 		//this is important, because both the 2DPlayer and 3DPlayer object want to follow it
 		coordinateList.Add(playerObjectTracker);
 
-		//timer text setting:
+		//timer text settings:
+		timeStillMoving = true;
 		updateTimeLimit();
 	}
 
 	// Update is called once per frame
 	void Update () {
 		//subtract time from timer
+		if(timeStillMoving == true){
 			timeLimit -= Time.deltaTime;
 			updateTimeLimit ();
+		}
 		//
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
@@ -202,9 +208,23 @@ public class BoardController : MonoBehaviour {
 		string minutes = Mathf.Floor((float)(timeLimit / 60f)).ToString();
 		string seconds = Mathf.Floor((float)(timeLimit % 60f)).ToString();
 
-		timeLimitDisplay.text = "Time Left: " + minutes + " : " + seconds;
-		//timeLimitDisplay.text = "Time Left Danny Devito";
+		//timeLimitCanvas.transform.FindChild ("TextTimer").text = "Time Left: " + minutes + " : " + seconds;
+		Text tempDisplay = timeLimitCanvas.transform.Find ("TextTimer").GetComponent<Text>();
+		tempDisplay.text = "Time Left: " + minutes + " : " + seconds;
+		//timeLimitDisplay.text = "Time Left: " + minutes + " : " + seconds;
 		//Debug.Log ("Time Left: " + timeLimit.ToString());
 		//Debug.Log (timeLimitDisplay.text);
+	}
+	public void setTimeMovingFalse(){
+		timeStillMoving = false;
+	}
+
+	private void OnGUI()
+	{
+		//onGUI is constantly checking to see if it needs to create a menu, so we'll control all pop up menus from here
+		if(timeStillMoving == false)
+		{
+			
+		}
 	}
 }

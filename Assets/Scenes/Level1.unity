@@ -2717,6 +2717,15 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224636254852145750, guid: 9f12f5cf475848743ae610c23e94034d,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1028280190162752, guid: 9f12f5cf475848743ae610c23e94034d, type: 2}
+      propertyPath: m_Name
+      value: MenuPanel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f12f5cf475848743ae610c23e94034d, type: 2}
   m_IsPrefabAsset: 0
