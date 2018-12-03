@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour
@@ -17,7 +18,10 @@ public class PlayerController : MonoBehaviour
 	//by default, the 2DPlayer is checked as active and the 3DPlayer is left as not active
 	public bool activated;
 	public float velocity;
-
+	static public float maxHealth = 3.0f;
+	static public float currentHealth;
+	
+	public Canvas healthCanvas;
 	void Start()
     {
         //This gets the Main Camera from the Scene
@@ -29,6 +33,7 @@ public class PlayerController : MonoBehaviour
 		//player is cyan by default
 		material = GetComponent<Renderer>().material;
 		material.color = Color.cyan;
+		activateNewHealth();
     }
     void FixedUpdate()
     {	
@@ -98,6 +103,24 @@ public class PlayerController : MonoBehaviour
 	//change player's activated status
 	public void setActivatedStatus(bool status){
 		activated = status;
+	}
+	public void activateNewHealth() {
+		currentHealth = maxHealth;
+		Text tempDisplay = healthCanvas.transform.Find ("Health").GetComponent<Text>();
+		tempDisplay.text = "Health: " + currentHealth;
+	}
+	public void onCollisionEnter(Collision collision) {
+		if (collision.collider.tag == "Enemy") {
+			Debug.Log("HIT");
+			if (currentHealth >= 0) {
+				currentHealth -= 1;
+			}
+			else {
+				activateNewHealth();
+			}
+		}
+		Text tempDisplay = healthCanvas.transform.Find ("Health").GetComponent<Text>();
+		tempDisplay.text = "Health: " + currentHealth;
 	}
 
 }

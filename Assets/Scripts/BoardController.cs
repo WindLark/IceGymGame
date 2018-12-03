@@ -20,7 +20,6 @@ public class BoardController : MonoBehaviour {
 	private GameObject twoDPlayer;
 	private GameObject threeDPlayer;
 
-
 	private AudioSource[] sounds;
 	private AudioSource deny_shift;
 	private AudioSource allow_shift;
@@ -39,7 +38,6 @@ public class BoardController : MonoBehaviour {
 	void Start () {
 		twoDPlayer = GameObject.Find ("Player_2D_Mode");
 		threeDPlayer = GameObject.Find ("Player_3D_Mode"); 
-
 		sounds = GetComponents<AudioSource>();
 		deny_shift = sounds[0];
 		allow_shift = sounds[1];
@@ -217,7 +215,9 @@ public class BoardController : MonoBehaviour {
 		//timeLimitDisplay.text = "Time Left: " + minutes + " : " + seconds;
 		//Debug.Log ("Time Left: " + timeLimit.ToString());
 		//Debug.Log (timeLimitDisplay.text);
+
 	}
+
 	public void setTimeMovingFalse(){
 		timeStillMoving = false;
 	}

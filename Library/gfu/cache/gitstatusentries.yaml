@@ -12,96 +12,204 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-02T19:58:30.947-05:00
-  initializedAtString: 2018-12-02T16:51:35.729-05:00
+  lastUpdatedAtString: 2018-12-03T05:06:36.843-05:00
+  initializedAtString: 2018-12-03T02:56:39.643-05:00
   entries:
-  - path: Assets\Prefabs\Canvas_UI.prefab
-    fullPath: D:\Unity\IceGymGame\Assets\Prefabs\Canvas_UI.prefab
-    projectPath: Assets\Prefabs\Canvas_UI.prefab
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
     status: 3
     staged: 0
   - path: Assets\Scenes\Level1.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assets\Scenes\Level1.unity
     projectPath: Assets\Scenes\Level1.unity
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scenes\Level2.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level2.unity
-    projectPath: Assets\Scenes\Level2.unity
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Assets\Scripts\BoardController.cs
-    fullPath: D:\Unity\IceGymGame\Assets\Scripts\BoardController.cs
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assets\Scripts\BoardController.cs
     projectPath: Assets\Scripts\BoardController.cs
     originalPath: 
     status: 3
     staged: 0
+  - path: Assets\Scripts\PlayerController.cs
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assets\Scripts\PlayerController.cs
+    projectPath: Assets\Scripts\PlayerController.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: IceGymGame.sln
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\IceGymGame.sln
+    projectPath: IceGymGame.sln
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\assetDatabase3
-    fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\CrashedAssetImports.txt
-    fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\expandedItems
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\expandedItems
+    projectPath: Library\expandedItems
     originalPath: 
     status: 3
     staged: 0
   - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     status: 3
     staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000003000000000000000
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\metadata\00\00000000000000003000000000000000
+    projectPath: Library\metadata\00\00000000000000003000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000009000000000000000
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\metadata\00\00000000000000009000000000000000
+    projectPath: Library\metadata\00\00000000000000009000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
-    fullPath: D:\Unity\IceGymGame\Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
     projectPath: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\9f\9f12f5cf475848743ae610c23e94034d.info
-    fullPath: D:\Unity\IceGymGame\Library\metadata\9f\9f12f5cf475848743ae610c23e94034d.info
-    projectPath: Library\metadata\9f\9f12f5cf475848743ae610c23e94034d.info
+  - path: Library\metadata\99\99c9720ab356a0642a771bea13969a05
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\metadata\99\99c9720ab356a0642a771bea13969a05
+    projectPath: Library\metadata\99\99c9720ab356a0642a771bea13969a05
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+    projectPath: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
     originalPath: 
     status: 3
     staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
     status: 3
     staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptMapper
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\ScriptMapper
+    projectPath: Library\ScriptMapper
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings\ProjectVersion.txt
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\ProjectSettings\ProjectVersion.txt
+    projectPath: ProjectSettings\ProjectVersion.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings\TagManager.asset
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
     originalPath: 
     status: 3
     staged: 0
