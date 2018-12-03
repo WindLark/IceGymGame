@@ -104,15 +104,34 @@ public class PlayerController : MonoBehaviour
 	public void setActivatedStatus(bool status){
 		activated = status;
 	}
+
+	// on death, resets health back to max
 	public void activateNewHealth() {
 		currentHealth = maxHealth;
 		Text tempDisplay = healthCanvas.transform.Find ("Health").GetComponent<Text>();
 		tempDisplay.text = "Health: " + currentHealth;
 	}
-	public void onCollisionEnter(Collision collision) {
+
+	// on collision with physical objects like stable blocks, not triggers; this method was used
+	// early on for me to test it with regular objects but I have it here anyway for proof of concept lol
+	public void OnCollisionEnter(Collision collision) {
 		if (collision.collider.tag == "Enemy") {
 			Debug.Log("HIT");
-			if (currentHealth >= 0) {
+			if (currentHealth > 1) {
+				currentHealth -= 1;
+			}
+			else {
+				activateNewHealth();
+			}
+		}
+		Text tempDisplay = healthCanvas.transform.Find ("Health").GetComponent<Text>();
+		tempDisplay.text = "Health: " + currentHealth;
+	}
+	// and here's the method that will be used by the moving, trigger, collisionless enemies/sentries
+	public void OnTriggerEnter(Collider other) {
+		if (other.tag == "Enemy") {
+			Debug.Log("HIT");
+			if (currentHealth > 1) {
 				currentHealth -= 1;
 			}
 			else {
