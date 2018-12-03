@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BoardController : MonoBehaviour {
 	//list of ObjectTracker coordinates - each ObjectTracker should correspond to a MOVING Player (or Hazard) in play
@@ -31,6 +32,8 @@ public class BoardController : MonoBehaviour {
 	public Canvas timeLimitCanvas;
 
 	private bool timeStillMoving;
+
+	public string nextLevel;
 
 
 	void Start () {
@@ -221,10 +224,19 @@ public class BoardController : MonoBehaviour {
 
 	private void OnGUI()
 	{
+		GUIStyle customButtonTemplate = new GUIStyle("button");
+		customButtonTemplate.fontSize = 24;
 		//onGUI is constantly checking to see if it needs to create a menu, so we'll control all pop up menus from here
 		if(timeStillMoving == false)
 		{
-			
+			RectTransform  tempPanelRT = timeLimitCanvas.transform.Find ("MenuPanel").GetComponent<RectTransform>();
+			tempPanelRT.sizeDelta = new Vector2(700,1000);
+			timeLimitCanvas.transform.Find ("YouWinText").gameObject.SetActive (true);
+
+			if (GUI.Button (new Rect (Screen.width / 2 - 50, Screen.height / 2 + 10, 100, 50), "Next Level!")) {
+				SceneManager.LoadSceneAsync (nextLevel);
+				//Debug.Log("Clicked the button with text");
+			}
 		}
 	}
 }

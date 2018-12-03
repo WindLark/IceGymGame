@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-02T19:07:22.202-05:00
+  lastUpdatedAtString: 2018-12-02T19:58:30.947-05:00
   initializedAtString: 2018-12-02T16:51:35.729-05:00
   entries:
   - path: Assets\Prefabs\Canvas_UI.prefab
@@ -27,21 +27,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Assets\Scenes\Level2.unity
+    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level2.unity
+    projectPath: Assets\Scenes\Level2.unity
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Assets\Scripts\BoardController.cs
     fullPath: D:\Unity\IceGymGame\Assets\Scripts\BoardController.cs
     projectPath: Assets\Scripts\BoardController.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scripts\VictoryController.cs
-    fullPath: D:\Unity\IceGymGame\Assets\Scripts\VictoryController.cs
-    projectPath: Assets\Scripts\VictoryController.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: IceGymGame.userprefs
-    fullPath: D:\Unity\IceGymGame\IceGymGame.userprefs
-    projectPath: IceGymGame.userprefs
     originalPath: 
     status: 3
     staged: 0
@@ -55,7 +49,7 @@ MonoBehaviour:
     fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
     projectPath: Library\CrashedAssetImports.txt
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
@@ -66,6 +60,12 @@ MonoBehaviour:
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -90,12 +90,6 @@ MonoBehaviour:
   - path: Library\metadata\9f\9f12f5cf475848743ae610c23e94034d.info
     fullPath: D:\Unity\IceGymGame\Library\metadata\9f\9f12f5cf475848743ae610c23e94034d.info
     projectPath: Library\metadata\9f\9f12f5cf475848743ae610c23e94034d.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\bb\bb0d8f5541ce00a4cb78106e9c628323
-    fullPath: D:\Unity\IceGymGame\Library\metadata\bb\bb0d8f5541ce00a4cb78106e9c628323
-    projectPath: Library\metadata\bb\bb0d8f5541ce00a4cb78106e9c628323
     originalPath: 
     status: 3
     staged: 0

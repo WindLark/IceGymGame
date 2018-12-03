@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class VictoryController : MonoBehaviour {
 	//string name of next level scene
-	public string nextLevel;
+	//deprecated field
+	//public string nextLevel;
 	void OnTriggerEnter(Collider other) 
 	{
 		if (other.gameObject.CompareTag ("2DPlayer") || other.gameObject.CompareTag ("3DPlayer") )

@@ -224,6 +224,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 66036679}
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!223 &66036681 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 223535393847724206, guid: 9f12f5cf475848743ae610c23e94034d,
+    type: 2}
+  m_PrefabInternal: {fileID: 66036679}
 --- !u!1 &77746425
 GameObject:
   m_ObjectHideFlags: 0
@@ -1385,6 +1390,16 @@ Prefab:
       propertyPath: timeLimit
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114432394308712894, guid: 958bb5183c5ceab4ebbe6d63a8a56a91,
+        type: 2}
+      propertyPath: nextLevel
+      value: Level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114432394308712894, guid: 958bb5183c5ceab4ebbe6d63a8a56a91,
+        type: 2}
+      propertyPath: timeLimitCanvas
+      value: 
+      objectReference: {fileID: 66036681}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 958bb5183c5ceab4ebbe6d63a8a56a91, type: 2}
   m_IsPrefabAsset: 0
