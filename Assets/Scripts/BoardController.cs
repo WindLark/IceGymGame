@@ -23,6 +23,7 @@ public class BoardController : MonoBehaviour {
 	private AudioSource[] sounds;
 	private AudioSource deny_shift;
 	private AudioSource allow_shift;
+	private AudioSource damage;
 
 	//time limit that we set depending on what level we're on
 	public float timeLimit;
@@ -41,6 +42,7 @@ public class BoardController : MonoBehaviour {
 		sounds = GetComponents<AudioSource>();
 		deny_shift = sounds[0];
 		allow_shift = sounds[1];
+		damage = sounds[2];
 
 		//First Camera Enabled
 		//m_CameraOne.gameObject.SetActive(true);

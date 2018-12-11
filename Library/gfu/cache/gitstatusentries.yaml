@@ -12,84 +12,1200 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-03T12:19:00.168-05:00
-  initializedAtString: 2018-12-03T12:06:38.702-05:00
+  lastUpdatedAtString: 2018-12-11T10:29:08.918-05:00
+  initializedAtString: 2018-12-11T09:04:50.455-05:00
   entries:
-  - path: Assets\Scenes\Level2.unity
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assets\Scenes\Level2.unity
-    projectPath: Assets\Scenes\Level2.unity
+  - path: Assembly-CSharp.csproj
+    fullPath: D:\Unity\IceGymGame\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: D:\Unity\IceGymGame\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Materials\clear.mat
+    fullPath: D:\Unity\IceGymGame\Assets\Materials\clear.mat
+    projectPath: Assets\Materials\clear.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Materials\clear.mat.meta
+    fullPath: D:\Unity\IceGymGame\Assets\Materials\clear.mat.meta
+    projectPath: Assets\Materials\clear.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\Level1.unity
+    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
+    projectPath: Assets\Scenes\Level1.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\BoardController.cs
+    fullPath: D:\Unity\IceGymGame\Assets\Scripts\BoardController.cs
+    projectPath: Assets\Scripts\BoardController.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\PlayerController.cs
+    fullPath: D:\Unity\IceGymGame\Assets\Scripts\PlayerController.cs
+    projectPath: Assets\Scripts\PlayerController.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Sounds\damage.wav
+    fullPath: D:\Unity\IceGymGame\Assets\Sounds\damage.wav
+    projectPath: Assets\Sounds\damage.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sounds\damage.wav.meta
+    fullPath: D:\Unity\IceGymGame\Assets\Sounds\damage.wav.meta
+    projectPath: Assets\Sounds\damage.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Textures\clear.png
+    fullPath: D:\Unity\IceGymGame\Assets\Textures\clear.png
+    projectPath: Assets\Textures\clear.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Textures\clear.png.meta
+    fullPath: D:\Unity\IceGymGame\Assets\Textures\clear.png.meta
+    projectPath: Assets\Textures\clear.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: IceGymGame.sln
+    fullPath: D:\Unity\IceGymGame\IceGymGame.sln
+    projectPath: IceGymGame.sln
     originalPath: 
     status: 3
     staged: 0
   - path: Library\assetDatabase3
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\assetDatabase3
+    fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\CrashedAssetImports.txt
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Library\CurrentLayout.dwlt
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\CurrentLayout.dwlt
+    fullPath: D:\Unity\IceGymGame\Library\CurrentLayout.dwlt
     projectPath: Library\CurrentLayout.dwlt
     originalPath: 
     status: 3
     staged: 0
   - path: Library\EditorInstance.json
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\EditorInstance.json
+    fullPath: D:\Unity\IceGymGame\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
+  - path: Library\expandedItems
+    fullPath: D:\Unity\IceGymGame\Library\expandedItems
+    projectPath: Library\expandedItems
     originalPath: 
     status: 3
     staged: 0
   - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\gitlocks.yaml
+    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\repoinfo.yaml
+    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: D:\Unity\IceGymGame\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000002000000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\00000000000000002000000000000000
+    projectPath: Library\metadata\00\00000000000000002000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000003000000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\00000000000000003000000000000000
+    projectPath: Library\metadata\00\00000000000000003000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000004000000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\00000000000000004000000000000000
+    projectPath: Library\metadata\00\00000000000000004000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000004100000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\00000000000000004100000000000000
+    projectPath: Library\metadata\00\00000000000000004100000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000005000000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\00000000000000005000000000000000
+    projectPath: Library\metadata\00\00000000000000005000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000005100000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\00000000000000005100000000000000
+    projectPath: Library\metadata\00\00000000000000005100000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000006000000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\00000000000000006000000000000000
+    projectPath: Library\metadata\00\00000000000000006000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000006100000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\00000000000000006100000000000000
+    projectPath: Library\metadata\00\00000000000000006100000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000007000000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\00000000000000007000000000000000
+    projectPath: Library\metadata\00\00000000000000007000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000007100000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\00000000000000007100000000000000
+    projectPath: Library\metadata\00\00000000000000007100000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000008000000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\00000000000000008000000000000000
+    projectPath: Library\metadata\00\00000000000000008000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00000000000000009000000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\00000000000000009000000000000000
+    projectPath: Library\metadata\00\00000000000000009000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\0000000000000000a100000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\0000000000000000a100000000000000
+    projectPath: Library\metadata\00\0000000000000000a100000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\0000000000000000b000000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\0000000000000000b000000000000000
+    projectPath: Library\metadata\00\0000000000000000b000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\0000000000000000b100000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\0000000000000000b100000000000000
+    projectPath: Library\metadata\00\0000000000000000b100000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\0000000000000000c000000000000000
+    fullPath: D:\Unity\IceGymGame\Library\metadata\00\0000000000000000c000000000000000
+    projectPath: Library\metadata\00\0000000000000000c000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    fullPath: D:\Unity\IceGymGame\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\02\02aad2ceb027bbf498818feaecc25bae
+    fullPath: D:\Unity\IceGymGame\Library\metadata\02\02aad2ceb027bbf498818feaecc25bae
+    projectPath: Library\metadata\02\02aad2ceb027bbf498818feaecc25bae
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\06\06a4c8218945f894a9e6cdfaf9ae2c6d
+    fullPath: D:\Unity\IceGymGame\Library\metadata\06\06a4c8218945f894a9e6cdfaf9ae2c6d
+    projectPath: Library\metadata\06\06a4c8218945f894a9e6cdfaf9ae2c6d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\07\072450ffed31fe545a60f71f33f53916
+    fullPath: D:\Unity\IceGymGame\Library\metadata\07\072450ffed31fe545a60f71f33f53916
+    projectPath: Library\metadata\07\072450ffed31fe545a60f71f33f53916
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\0c\0cfee041753a43a4c99fa3b1ebc4977d
+    fullPath: D:\Unity\IceGymGame\Library\metadata\0c\0cfee041753a43a4c99fa3b1ebc4977d
+    projectPath: Library\metadata\0c\0cfee041753a43a4c99fa3b1ebc4977d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0c\0cfee041753a43a4c99fa3b1ebc4977d.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\0c\0cfee041753a43a4c99fa3b1ebc4977d.info
+    projectPath: Library\metadata\0c\0cfee041753a43a4c99fa3b1ebc4977d.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0d\0d3bb855445e36e479c85976fc88383a
+    fullPath: D:\Unity\IceGymGame\Library\metadata\0d\0d3bb855445e36e479c85976fc88383a
+    projectPath: Library\metadata\0d\0d3bb855445e36e479c85976fc88383a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\13\136dc24f151211d438acee17aff4e934
+    fullPath: D:\Unity\IceGymGame\Library\metadata\13\136dc24f151211d438acee17aff4e934
+    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\15\151a1d946b98deb4b98445400983ba92
+    fullPath: D:\Unity\IceGymGame\Library\metadata\15\151a1d946b98deb4b98445400983ba92
+    projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+    fullPath: D:\Unity\IceGymGame\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+    projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\16\1638f3415e6a8594ba9323f0ba3c5acf
+    fullPath: D:\Unity\IceGymGame\Library\metadata\16\1638f3415e6a8594ba9323f0ba3c5acf
+    projectPath: Library\metadata\16\1638f3415e6a8594ba9323f0ba3c5acf
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+    fullPath: D:\Unity\IceGymGame\Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+    projectPath: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+    fullPath: D:\Unity\IceGymGame\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\19\19ead9387dc9ef14fad0436a846268f7
+    fullPath: D:\Unity\IceGymGame\Library\metadata\19\19ead9387dc9ef14fad0436a846268f7
+    projectPath: Library\metadata\19\19ead9387dc9ef14fad0436a846268f7
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
+    fullPath: D:\Unity\IceGymGame\Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
+    projectPath: Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\20\204a570cd0814334ba2fd79718030cc0
+    fullPath: D:\Unity\IceGymGame\Library\metadata\20\204a570cd0814334ba2fd79718030cc0
+    projectPath: Library\metadata\20\204a570cd0814334ba2fd79718030cc0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+    fullPath: D:\Unity\IceGymGame\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+    projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\21\21eff446d50eaf44a85985cd4c0b6fa1
+    fullPath: D:\Unity\IceGymGame\Library\metadata\21\21eff446d50eaf44a85985cd4c0b6fa1
+    projectPath: Library\metadata\21\21eff446d50eaf44a85985cd4c0b6fa1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\23\23c8bee69b591054094d32918f98facd
+    fullPath: D:\Unity\IceGymGame\Library\metadata\23\23c8bee69b591054094d32918f98facd
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+    fullPath: D:\Unity\IceGymGame\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\26\2642008eb81683d4dbc7cd4ad6a2c485
+    fullPath: D:\Unity\IceGymGame\Library\metadata\26\2642008eb81683d4dbc7cd4ad6a2c485
+    projectPath: Library\metadata\26\2642008eb81683d4dbc7cd4ad6a2c485
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\26\2682a692a2be7e14e901a738c7806da0
+    fullPath: D:\Unity\IceGymGame\Library\metadata\26\2682a692a2be7e14e901a738c7806da0
+    projectPath: Library\metadata\26\2682a692a2be7e14e901a738c7806da0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\2f\2fe3476eabbbb6c448e6b55a2cc471f5
+    fullPath: D:\Unity\IceGymGame\Library\metadata\2f\2fe3476eabbbb6c448e6b55a2cc471f5
+    projectPath: Library\metadata\2f\2fe3476eabbbb6c448e6b55a2cc471f5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\32\328cc881519068e4eb7db4bb907ad2d9
+    fullPath: D:\Unity\IceGymGame\Library\metadata\32\328cc881519068e4eb7db4bb907ad2d9
+    projectPath: Library\metadata\32\328cc881519068e4eb7db4bb907ad2d9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\38\38bddfe944f8cee47ae1115557dfea52
+    fullPath: D:\Unity\IceGymGame\Library\metadata\38\38bddfe944f8cee47ae1115557dfea52
+    projectPath: Library\metadata\38\38bddfe944f8cee47ae1115557dfea52
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
+    fullPath: D:\Unity\IceGymGame\Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
+    projectPath: Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
+    fullPath: D:\Unity\IceGymGame\Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
     projectPath: Library\metadata\38\38cad95dea1943a4ca0011302740b9b3
     originalPath: 
     status: 3
     staged: 0
+  - path: Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
+    fullPath: D:\Unity\IceGymGame\Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
+    projectPath: Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\3c\3cdbcd16db9fe75488e0d4a8943bcba7
+    fullPath: D:\Unity\IceGymGame\Library\metadata\3c\3cdbcd16db9fe75488e0d4a8943bcba7
+    projectPath: Library\metadata\3c\3cdbcd16db9fe75488e0d4a8943bcba7
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
+    fullPath: D:\Unity\IceGymGame\Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
+    projectPath: Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\46\46098a81a64a45c5b756320e10a22f13
+    fullPath: D:\Unity\IceGymGame\Library\metadata\46\46098a81a64a45c5b756320e10a22f13
+    projectPath: Library\metadata\46\46098a81a64a45c5b756320e10a22f13
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+    fullPath: D:\Unity\IceGymGame\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+    projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\49\49f5766d0d4954f44b85d4bbd7131677
+    fullPath: D:\Unity\IceGymGame\Library\metadata\49\49f5766d0d4954f44b85d4bbd7131677
+    projectPath: Library\metadata\49\49f5766d0d4954f44b85d4bbd7131677
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\4a\4a813084baf34314aa7b09881c317646
+    fullPath: D:\Unity\IceGymGame\Library\metadata\4a\4a813084baf34314aa7b09881c317646
+    projectPath: Library\metadata\4a\4a813084baf34314aa7b09881c317646
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\4d\4d64205430999a04981dab6f259b6e44
+    fullPath: D:\Unity\IceGymGame\Library\metadata\4d\4d64205430999a04981dab6f259b6e44
+    projectPath: Library\metadata\4d\4d64205430999a04981dab6f259b6e44
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\4f\4f704ae4b4f98ae41a0bce26658850c1
+    fullPath: D:\Unity\IceGymGame\Library\metadata\4f\4f704ae4b4f98ae41a0bce26658850c1
+    projectPath: Library\metadata\4f\4f704ae4b4f98ae41a0bce26658850c1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\51\517af1b5b81b93b43b9745d58f017562
+    fullPath: D:\Unity\IceGymGame\Library\metadata\51\517af1b5b81b93b43b9745d58f017562
+    projectPath: Library\metadata\51\517af1b5b81b93b43b9745d58f017562
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\5e\5e27b1dcd46fbfb459fd62aef1d20f07
+    fullPath: D:\Unity\IceGymGame\Library\metadata\5e\5e27b1dcd46fbfb459fd62aef1d20f07
+    projectPath: Library\metadata\5e\5e27b1dcd46fbfb459fd62aef1d20f07
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\5f\5fbcdfa762d0bda4aab163bc3c4cf712
+    fullPath: D:\Unity\IceGymGame\Library\metadata\5f\5fbcdfa762d0bda4aab163bc3c4cf712
+    projectPath: Library\metadata\5f\5fbcdfa762d0bda4aab163bc3c4cf712
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\62\623bee472050bcb4088d6de3ce4fb968
+    fullPath: D:\Unity\IceGymGame\Library\metadata\62\623bee472050bcb4088d6de3ce4fb968
+    projectPath: Library\metadata\62\623bee472050bcb4088d6de3ce4fb968
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+    fullPath: D:\Unity\IceGymGame\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+    projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\64\6416c33b0bf58844fa4cc6d5182f23cb
+    fullPath: D:\Unity\IceGymGame\Library\metadata\64\6416c33b0bf58844fa4cc6d5182f23cb
+    projectPath: Library\metadata\64\6416c33b0bf58844fa4cc6d5182f23cb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+    fullPath: D:\Unity\IceGymGame\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+    fullPath: D:\Unity\IceGymGame\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\69\6981461fe431401459211818212a29cf
+    fullPath: D:\Unity\IceGymGame\Library\metadata\69\6981461fe431401459211818212a29cf
+    projectPath: Library\metadata\69\6981461fe431401459211818212a29cf
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
+    fullPath: D:\Unity\IceGymGame\Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
+    projectPath: Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
+    fullPath: D:\Unity\IceGymGame\Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
+    projectPath: Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\73\7368f9900d5a1494ab896d30e4adb485
+    fullPath: D:\Unity\IceGymGame\Library\metadata\73\7368f9900d5a1494ab896d30e4adb485
+    projectPath: Library\metadata\73\7368f9900d5a1494ab896d30e4adb485
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\74\74101c7619674b24d82777e7458e0977
+    fullPath: D:\Unity\IceGymGame\Library\metadata\74\74101c7619674b24d82777e7458e0977
+    projectPath: Library\metadata\74\74101c7619674b24d82777e7458e0977
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\75\75799de484ac4f4cadc268d2cbea830a
+    fullPath: D:\Unity\IceGymGame\Library\metadata\75\75799de484ac4f4cadc268d2cbea830a
+    projectPath: Library\metadata\75\75799de484ac4f4cadc268d2cbea830a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+    fullPath: D:\Unity\IceGymGame\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+    projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\7e\7ed1fd403468fc14889cdb105aa79a33
+    fullPath: D:\Unity\IceGymGame\Library\metadata\7e\7ed1fd403468fc14889cdb105aa79a33
+    projectPath: Library\metadata\7e\7ed1fd403468fc14889cdb105aa79a33
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\84\84ca94c19f25ae14d83aa41bb3654390
+    fullPath: D:\Unity\IceGymGame\Library\metadata\84\84ca94c19f25ae14d83aa41bb3654390
+    projectPath: Library\metadata\84\84ca94c19f25ae14d83aa41bb3654390
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+    fullPath: D:\Unity\IceGymGame\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+    projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\87\877ef3585573ce44eab899298be23158
+    fullPath: D:\Unity\IceGymGame\Library\metadata\87\877ef3585573ce44eab899298be23158
+    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\89\899b1f9ea9d67c74094c64b4d59ee213
+    fullPath: D:\Unity\IceGymGame\Library\metadata\89\899b1f9ea9d67c74094c64b4d59ee213
+    projectPath: Library\metadata\89\899b1f9ea9d67c74094c64b4d59ee213
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\8c\8c1976fed9219024badfbe20859d0fcd
+    fullPath: D:\Unity\IceGymGame\Library\metadata\8c\8c1976fed9219024badfbe20859d0fcd
+    projectPath: Library\metadata\8c\8c1976fed9219024badfbe20859d0fcd
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\8c\8cb68b3a5e396614baa60f752da2a286
+    fullPath: D:\Unity\IceGymGame\Library\metadata\8c\8cb68b3a5e396614baa60f752da2a286
+    projectPath: Library\metadata\8c\8cb68b3a5e396614baa60f752da2a286
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\8d\8d6a6f756f7a3c14188937d7923eb8ab
+    fullPath: D:\Unity\IceGymGame\Library\metadata\8d\8d6a6f756f7a3c14188937d7923eb8ab
+    projectPath: Library\metadata\8d\8d6a6f756f7a3c14188937d7923eb8ab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\8e\8e7066e382b0fc749b25dbb1a3004dfe
+    fullPath: D:\Unity\IceGymGame\Library\metadata\8e\8e7066e382b0fc749b25dbb1a3004dfe
+    projectPath: Library\metadata\8e\8e7066e382b0fc749b25dbb1a3004dfe
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\90\9078b7128e594410d9b89e5b24cffd01
+    fullPath: D:\Unity\IceGymGame\Library\metadata\90\9078b7128e594410d9b89e5b24cffd01
+    projectPath: Library\metadata\90\9078b7128e594410d9b89e5b24cffd01
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\92\927026374374aec4592e28cfc7e22777
+    fullPath: D:\Unity\IceGymGame\Library\metadata\92\927026374374aec4592e28cfc7e22777
+    projectPath: Library\metadata\92\927026374374aec4592e28cfc7e22777
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\95\958bb5183c5ceab4ebbe6d63a8a56a91
+    fullPath: D:\Unity\IceGymGame\Library\metadata\95\958bb5183c5ceab4ebbe6d63a8a56a91
+    projectPath: Library\metadata\95\958bb5183c5ceab4ebbe6d63a8a56a91
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+    fullPath: D:\Unity\IceGymGame\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+    projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\99\99c9720ab356a0642a771bea13969a05
+    fullPath: D:\Unity\IceGymGame\Library\metadata\99\99c9720ab356a0642a771bea13969a05
+    projectPath: Library\metadata\99\99c9720ab356a0642a771bea13969a05
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\9b\9b3a918d590e4e1459441f9ead225410
+    fullPath: D:\Unity\IceGymGame\Library\metadata\9b\9b3a918d590e4e1459441f9ead225410
+    projectPath: Library\metadata\9b\9b3a918d590e4e1459441f9ead225410
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+    fullPath: D:\Unity\IceGymGame\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+    projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+    fullPath: D:\Unity\IceGymGame\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+    projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\a8\a84c031fa161a4a47925b3d1941a741e
+    fullPath: D:\Unity\IceGymGame\Library\metadata\a8\a84c031fa161a4a47925b3d1941a741e
+    projectPath: Library\metadata\a8\a84c031fa161a4a47925b3d1941a741e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\a8\a84c031fa161a4a47925b3d1941a741e.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\a8\a84c031fa161a4a47925b3d1941a741e.info
+    projectPath: Library\metadata\a8\a84c031fa161a4a47925b3d1941a741e.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\a8\a84c031fa161a4a47925b3d1941a741e.resource
+    fullPath: D:\Unity\IceGymGame\Library\metadata\a8\a84c031fa161a4a47925b3d1941a741e.resource
+    projectPath: Library\metadata\a8\a84c031fa161a4a47925b3d1941a741e.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\aa\aa2083952c228ce409569f5d690c4dd9
+    fullPath: D:\Unity\IceGymGame\Library\metadata\aa\aa2083952c228ce409569f5d690c4dd9
+    projectPath: Library\metadata\aa\aa2083952c228ce409569f5d690c4dd9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\ab\ababd90bc8ac66e4b96c7452030a2eb0
+    fullPath: D:\Unity\IceGymGame\Library\metadata\ab\ababd90bc8ac66e4b96c7452030a2eb0
+    projectPath: Library\metadata\ab\ababd90bc8ac66e4b96c7452030a2eb0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\ad\ad3539a1bf7ab2c41ba07a9f67559f6e
+    fullPath: D:\Unity\IceGymGame\Library\metadata\ad\ad3539a1bf7ab2c41ba07a9f67559f6e
+    projectPath: Library\metadata\ad\ad3539a1bf7ab2c41ba07a9f67559f6e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\b0\b065703cfbf00f74bb12dd5fc273ec59
+    fullPath: D:\Unity\IceGymGame\Library\metadata\b0\b065703cfbf00f74bb12dd5fc273ec59
+    projectPath: Library\metadata\b0\b065703cfbf00f74bb12dd5fc273ec59
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\b2\b28b1ceb646053445a8f073b6c9e3c16
+    fullPath: D:\Unity\IceGymGame\Library\metadata\b2\b28b1ceb646053445a8f073b6c9e3c16
+    projectPath: Library\metadata\b2\b28b1ceb646053445a8f073b6c9e3c16
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\b2\b28b1ceb646053445a8f073b6c9e3c16.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\b2\b28b1ceb646053445a8f073b6c9e3c16.info
+    projectPath: Library\metadata\b2\b28b1ceb646053445a8f073b6c9e3c16.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
+    fullPath: D:\Unity\IceGymGame\Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
+    projectPath: Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\b2\b2bead50dbf86924f8e51f03ddbebf70
+    fullPath: D:\Unity\IceGymGame\Library\metadata\b2\b2bead50dbf86924f8e51f03ddbebf70
+    projectPath: Library\metadata\b2\b2bead50dbf86924f8e51f03ddbebf70
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\b5\b548a356896bd6c4783846b04c795c9a
+    fullPath: D:\Unity\IceGymGame\Library\metadata\b5\b548a356896bd6c4783846b04c795c9a
+    projectPath: Library\metadata\b5\b548a356896bd6c4783846b04c795c9a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\b8\b8eacec4f8447ce44a7c06047a3e1911
+    fullPath: D:\Unity\IceGymGame\Library\metadata\b8\b8eacec4f8447ce44a7c06047a3e1911
+    projectPath: Library\metadata\b8\b8eacec4f8447ce44a7c06047a3e1911
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
+    fullPath: D:\Unity\IceGymGame\Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
+    projectPath: Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\bb\bb0d8f5541ce00a4cb78106e9c628323
+    fullPath: D:\Unity\IceGymGame\Library\metadata\bb\bb0d8f5541ce00a4cb78106e9c628323
+    projectPath: Library\metadata\bb\bb0d8f5541ce00a4cb78106e9c628323
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\c3\c30093a34715cb742b86bc2df7874431
+    fullPath: D:\Unity\IceGymGame\Library\metadata\c3\c30093a34715cb742b86bc2df7874431
+    projectPath: Library\metadata\c3\c30093a34715cb742b86bc2df7874431
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\c4\c4f5018df254c4244bcdec38e39b3076
+    fullPath: D:\Unity\IceGymGame\Library\metadata\c4\c4f5018df254c4244bcdec38e39b3076
+    projectPath: Library\metadata\c4\c4f5018df254c4244bcdec38e39b3076
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\c4\c4f5018df254c4244bcdec38e39b3076.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\c4\c4f5018df254c4244bcdec38e39b3076.info
+    projectPath: Library\metadata\c4\c4f5018df254c4244bcdec38e39b3076.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    fullPath: D:\Unity\IceGymGame\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+    fullPath: D:\Unity\IceGymGame\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+    fullPath: D:\Unity\IceGymGame\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+    fullPath: D:\Unity\IceGymGame\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+    projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\d0\d05b96cee66e14240838de167097537a
+    fullPath: D:\Unity\IceGymGame\Library\metadata\d0\d05b96cee66e14240838de167097537a
+    projectPath: Library\metadata\d0\d05b96cee66e14240838de167097537a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\d2\d2fee8aeb47fba1429b012858d83e959
+    fullPath: D:\Unity\IceGymGame\Library\metadata\d2\d2fee8aeb47fba1429b012858d83e959
+    projectPath: Library\metadata\d2\d2fee8aeb47fba1429b012858d83e959
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+    fullPath: D:\Unity\IceGymGame\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+    projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+    fullPath: D:\Unity\IceGymGame\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da
+    fullPath: D:\Unity\IceGymGame\Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da
+    projectPath: Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\d9\d91035c548f23744c9bfb107348ed1c0
+    fullPath: D:\Unity\IceGymGame\Library\metadata\d9\d91035c548f23744c9bfb107348ed1c0
+    projectPath: Library\metadata\d9\d91035c548f23744c9bfb107348ed1c0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\db\db2c1ccad7abc5945acd3342facc4e4c
+    fullPath: D:\Unity\IceGymGame\Library\metadata\db\db2c1ccad7abc5945acd3342facc4e4c
+    projectPath: Library\metadata\db\db2c1ccad7abc5945acd3342facc4e4c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\db\db6e5dc650cc8ad47abd0c5e9f0103fb
+    fullPath: D:\Unity\IceGymGame\Library\metadata\db\db6e5dc650cc8ad47abd0c5e9f0103fb
+    projectPath: Library\metadata\db\db6e5dc650cc8ad47abd0c5e9f0103fb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+    fullPath: D:\Unity\IceGymGame\Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+    projectPath: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+    fullPath: D:\Unity\IceGymGame\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+    projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\e1\e1007cd261c84053beb0c3537782908d
+    fullPath: D:\Unity\IceGymGame\Library\metadata\e1\e1007cd261c84053beb0c3537782908d
+    projectPath: Library\metadata\e1\e1007cd261c84053beb0c3537782908d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\e3\e33383ce3afd26c41a6994f0af6a6743
+    fullPath: D:\Unity\IceGymGame\Library\metadata\e3\e33383ce3afd26c41a6994f0af6a6743
+    projectPath: Library\metadata\e3\e33383ce3afd26c41a6994f0af6a6743
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\e4\e40a8dcc22aec294abb8075f7240ad64
+    fullPath: D:\Unity\IceGymGame\Library\metadata\e4\e40a8dcc22aec294abb8075f7240ad64
+    projectPath: Library\metadata\e4\e40a8dcc22aec294abb8075f7240ad64
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\ed\ed3e0cf01a25c0e419e39a31640ad053
+    fullPath: D:\Unity\IceGymGame\Library\metadata\ed\ed3e0cf01a25c0e419e39a31640ad053
+    projectPath: Library\metadata\ed\ed3e0cf01a25c0e419e39a31640ad053
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+    fullPath: D:\Unity\IceGymGame\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+    fullPath: D:\Unity\IceGymGame\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+    projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+    fullPath: D:\Unity\IceGymGame\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+    projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
+    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
+    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptMapper
+    fullPath: D:\Unity\IceGymGame\Library\ScriptMapper
+    projectPath: Library\ScriptMapper
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ShaderCache\1\19821de24f90204e3b0a532d62d3a2e9.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\1\19821de24f90204e3b0a532d62d3a2e9.bin
+    projectPath: Library\ShaderCache\1\19821de24f90204e3b0a532d62d3a2e9.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\1\19ca68af384417aa99f12591db3b5727.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\1\19ca68af384417aa99f12591db3b5727.bin
+    projectPath: Library\ShaderCache\1\19ca68af384417aa99f12591db3b5727.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\2\20576968d070145eb5836d58ca5c99ce.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\2\20576968d070145eb5836d58ca5c99ce.bin
+    projectPath: Library\ShaderCache\2\20576968d070145eb5836d58ca5c99ce.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\2\2c61d82426361bc2bcc9b79786838f04.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\2\2c61d82426361bc2bcc9b79786838f04.bin
+    projectPath: Library\ShaderCache\2\2c61d82426361bc2bcc9b79786838f04.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\3\3a35cac4b337990256d8d43720bbeff7.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\3\3a35cac4b337990256d8d43720bbeff7.bin
+    projectPath: Library\ShaderCache\3\3a35cac4b337990256d8d43720bbeff7.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\3\3b35797a250695c2df0554e78fe24df3.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\3\3b35797a250695c2df0554e78fe24df3.bin
+    projectPath: Library\ShaderCache\3\3b35797a250695c2df0554e78fe24df3.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\4\45469ca3d0962aa32291244672fa53d2.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\4\45469ca3d0962aa32291244672fa53d2.bin
+    projectPath: Library\ShaderCache\4\45469ca3d0962aa32291244672fa53d2.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\4\46cc7fa1340b6de7bfec84287abc780c.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\4\46cc7fa1340b6de7bfec84287abc780c.bin
+    projectPath: Library\ShaderCache\4\46cc7fa1340b6de7bfec84287abc780c.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\4\4f566ec15eb20e7f77ff2cb3e9d608fe.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\4\4f566ec15eb20e7f77ff2cb3e9d608fe.bin
+    projectPath: Library\ShaderCache\4\4f566ec15eb20e7f77ff2cb3e9d608fe.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\5\5077dedf5dae015819b7e73d9e7b676a.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\5\5077dedf5dae015819b7e73d9e7b676a.bin
+    projectPath: Library\ShaderCache\5\5077dedf5dae015819b7e73d9e7b676a.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\5\53b2bb3591e35ea179e8f5c4f67f62c2.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\5\53b2bb3591e35ea179e8f5c4f67f62c2.bin
+    projectPath: Library\ShaderCache\5\53b2bb3591e35ea179e8f5c4f67f62c2.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\5\5dd8fcbae71be31a7986418c3710673c.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\5\5dd8fcbae71be31a7986418c3710673c.bin
+    projectPath: Library\ShaderCache\5\5dd8fcbae71be31a7986418c3710673c.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\6\658b524bd15c7534ead2bf2f17fa9e8b.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\6\658b524bd15c7534ead2bf2f17fa9e8b.bin
+    projectPath: Library\ShaderCache\6\658b524bd15c7534ead2bf2f17fa9e8b.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\7\70a9089ac4a72cef859ef24838fc98a3.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\7\70a9089ac4a72cef859ef24838fc98a3.bin
+    projectPath: Library\ShaderCache\7\70a9089ac4a72cef859ef24838fc98a3.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\7\750aeb6312ddf6d6204912542a7390c5.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\7\750aeb6312ddf6d6204912542a7390c5.bin
+    projectPath: Library\ShaderCache\7\750aeb6312ddf6d6204912542a7390c5.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\7\7700f56065fad9fbafc72545e9f8ac43.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\7\7700f56065fad9fbafc72545e9f8ac43.bin
+    projectPath: Library\ShaderCache\7\7700f56065fad9fbafc72545e9f8ac43.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\7\7cfff0929d18fb24ab3bc23957dabc87.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\7\7cfff0929d18fb24ab3bc23957dabc87.bin
+    projectPath: Library\ShaderCache\7\7cfff0929d18fb24ab3bc23957dabc87.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\8\862f2da163937ec7b66b7c54b5a2186b.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\8\862f2da163937ec7b66b7c54b5a2186b.bin
+    projectPath: Library\ShaderCache\8\862f2da163937ec7b66b7c54b5a2186b.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\9\91fb80e6f86cb3ec007128df0bc34113.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\9\91fb80e6f86cb3ec007128df0bc34113.bin
+    projectPath: Library\ShaderCache\9\91fb80e6f86cb3ec007128df0bc34113.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\9\94d61f0e9681b7dadcd653be93e7a115.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\9\94d61f0e9681b7dadcd653be93e7a115.bin
+    projectPath: Library\ShaderCache\9\94d61f0e9681b7dadcd653be93e7a115.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\9\95e3f345cc3ec06d4dce3489eab49fb7.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\9\95e3f345cc3ec06d4dce3489eab49fb7.bin
+    projectPath: Library\ShaderCache\9\95e3f345cc3ec06d4dce3489eab49fb7.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\9\9c4c92a5986264ff255a1f1091a94712.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\9\9c4c92a5986264ff255a1f1091a94712.bin
+    projectPath: Library\ShaderCache\9\9c4c92a5986264ff255a1f1091a94712.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\a\a7f0fc98db0e3b89f245e0b6ddf73207.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\a\a7f0fc98db0e3b89f245e0b6ddf73207.bin
+    projectPath: Library\ShaderCache\a\a7f0fc98db0e3b89f245e0b6ddf73207.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\a\ab2fa1449976cff04352053edaf6cb52.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\a\ab2fa1449976cff04352053edaf6cb52.bin
+    projectPath: Library\ShaderCache\a\ab2fa1449976cff04352053edaf6cb52.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\c\c824812f5311fa6c1964fc7908e793b1.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\c\c824812f5311fa6c1964fc7908e793b1.bin
+    projectPath: Library\ShaderCache\c\c824812f5311fa6c1964fc7908e793b1.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\c\cea9452c57bf532a9489e94fbab2fa40.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\c\cea9452c57bf532a9489e94fbab2fa40.bin
+    projectPath: Library\ShaderCache\c\cea9452c57bf532a9489e94fbab2fa40.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\d\d10c2f8b2632504037310eaad55f149e.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\d\d10c2f8b2632504037310eaad55f149e.bin
+    projectPath: Library\ShaderCache\d\d10c2f8b2632504037310eaad55f149e.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\d\d1447080ad4b4ac048ee0586c7133b1b.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\d\d1447080ad4b4ac048ee0586c7133b1b.bin
+    projectPath: Library\ShaderCache\d\d1447080ad4b4ac048ee0586c7133b1b.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\d\dac1c4ac676a8a905f636de7ededc322.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\d\dac1c4ac676a8a905f636de7ededc322.bin
+    projectPath: Library\ShaderCache\d\dac1c4ac676a8a905f636de7ededc322.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\d\db1fc9a9c6018a5039b3941af4d1cab3.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\d\db1fc9a9c6018a5039b3941af4d1cab3.bin
+    projectPath: Library\ShaderCache\d\db1fc9a9c6018a5039b3941af4d1cab3.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\d\dce02768db0274af30ef10ec9ac1a537.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\d\dce02768db0274af30ef10ec9ac1a537.bin
+    projectPath: Library\ShaderCache\d\dce02768db0274af30ef10ec9ac1a537.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\e\ea28cbb1d23723019a6fa19e9d3fe92e.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\e\ea28cbb1d23723019a6fa19e9d3fe92e.bin
+    projectPath: Library\ShaderCache\e\ea28cbb1d23723019a6fa19e9d3fe92e.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\f\f0cb1eea7dbd6a6ae5d340cf2f6a86c7.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\f\f0cb1eea7dbd6a6ae5d340cf2f6a86c7.bin
+    projectPath: Library\ShaderCache\f\f0cb1eea7dbd6a6ae5d340cf2f6a86c7.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\f\f4c86819e0945682a7d34cbe197a6063.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\f\f4c86819e0945682a7d34cbe197a6063.bin
+    projectPath: Library\ShaderCache\f\f4c86819e0945682a7d34cbe197a6063.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\f\f600de57e77d81ccf04f7756a87ec3b0.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\f\f600de57e77d81ccf04f7756a87ec3b0.bin
+    projectPath: Library\ShaderCache\f\f600de57e77d81ccf04f7756a87ec3b0.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\f\fa095d7bf0526a42ecc4b602cd11a01a.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\f\fa095d7bf0526a42ecc4b602cd11a01a.bin
+    projectPath: Library\ShaderCache\f\fa095d7bf0526a42ecc4b602cd11a01a.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\f\fc1667c5ef55dfd236fdc1e49e987c45.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\f\fc1667c5ef55dfd236fdc1e49e987c45.bin
+    projectPath: Library\ShaderCache\f\fc1667c5ef55dfd236fdc1e49e987c45.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\f\fd2087072694247d59e0b1e932dc3cf1.bin
+    fullPath: D:\Unity\IceGymGame\Library\ShaderCache\f\fd2087072694247d59e0b1e932dc3cf1.bin
+    projectPath: Library\ShaderCache\f\fd2087072694247d59e0b1e932dc3cf1.bin
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings\ProjectVersion.txt
+    fullPath: D:\Unity\IceGymGame\ProjectSettings\ProjectVersion.txt
+    projectPath: ProjectSettings\ProjectVersion.txt
     originalPath: 
     status: 3
     staged: 0

@@ -113,33 +113,72 @@ public class PlayerController : MonoBehaviour
 	}
 
 	// on collision with physical objects like stable blocks, not triggers; this method was used
-	// early on for me to test it with regular objects but I have it here anyway for proof of concept lol
+	// early on for me to test it with regular objects but I have it here anyway for proof of concept 
+	// commented out because it caused extra health decrement
+	/*
 	public void OnCollisionEnter(Collision collision) {
-		if (collision.collider.tag == "Enemy") {
-			Debug.Log("HIT");
-			if (currentHealth > 1) {
-				currentHealth -= 1;
+		if(activated == true){
+			if (collision.collider.tag == "Enemy") {
+				Debug.Log("HIT");
+				if (currentHealth > 1) {
+					currentHealth -= 1;
+				}
+				else {
+					activateNewHealth();
+				}
 			}
-			else {
-				activateNewHealth();
-			}
+			Text tempDisplay = healthCanvas.transform.Find ("Health").GetComponent<Text>();
+			tempDisplay.text = "Health: " + currentHealth;
 		}
-		Text tempDisplay = healthCanvas.transform.Find ("Health").GetComponent<Text>();
-		tempDisplay.text = "Health: " + currentHealth;
 	}
+	*/
+
 	// and here's the method that will be used by the moving, trigger, collisionless enemies/sentries
 	public void OnTriggerEnter(Collider other) {
-		if (other.tag == "Enemy") {
-			Debug.Log("HIT");
-			if (currentHealth > 1) {
-				currentHealth -= 1;
-			}
+		if (activated == true) {
+			if (other.tag == "Enemy") {
+				Debug.Log ("HIT");
+				if (currentHealth > 0) {
+					currentHealth -= 1;
+				}
+				/*
 			else {
 				activateNewHealth();
 			}
+			*/
+				playDamageSound ();
+				StartCoroutine (returnToPurplePlayer (0.0f));
+				StartCoroutine (returnToCyanPlayer (0.2f));
+				StartCoroutine (returnToPurplePlayer (0.4f));
+				StartCoroutine (returnToCyanPlayer (0.6f));
+			}
+			Text tempDisplay = healthCanvas.transform.Find ("Health").GetComponent<Text> ();
+			tempDisplay.text = "Health: " + currentHealth;
 		}
-		Text tempDisplay = healthCanvas.transform.Find ("Health").GetComponent<Text>();
-		tempDisplay.text = "Health: " + currentHealth;
+	}
+
+
+
+	// after a delay, player objects turns cyan again
+	private IEnumerator returnToCyanPlayer(float waitTime)
+	{
+		yield return new WaitForSeconds(waitTime);
+		Material player_material = gameObject.GetComponent<Renderer>().material;
+		player_material.color = Color.cyan;
+	}
+	// after a delay, player objects turns yellow again
+	private IEnumerator returnToPurplePlayer(float waitTime)
+	{
+		yield return new WaitForSeconds(waitTime);
+		Material player_material = gameObject.GetComponent<Renderer>().material;
+
+		player_material.color = Color.magenta;
+	}
+
+	private void playDamageSound(){
+		GameObject BCO = GameObject.Find ("BoardControllerObject");
+		AudioSource[] soundList = BCO.GetComponents<AudioSource>();
+		soundList[2].Play();
 	}
 
 }
