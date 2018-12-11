@@ -126,3 +126,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CameraTwo: {fileID: 0}
   activated: 0
+  velocity: 0
+  healthCanvas: {fileID: 0}

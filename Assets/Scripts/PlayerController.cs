@@ -144,19 +144,27 @@ public class PlayerController : MonoBehaviour
 				Debug.Log ("HIT");
 				if (currentHealth > 0) {
 					currentHealth -= 1;
+					invincibilityPhase = true;
+					playDamageSound ();
+					StartCoroutine (returnToPurplePlayer (0.0f));
+					StartCoroutine (returnToCyanPlayer (0.2f));
+					StartCoroutine (returnToPurplePlayer (0.4f));
+					StartCoroutine (returnToCyanPlayer (0.6f));
+					StartCoroutine (makeIvcFalse (0.6f));
+				} 
+				if(currentHealth == 0){
+					//if health is zero, tell the BoardController to setup the game over screen
+					activated = false;
+					GameObject boardControllerObject = GameObject.Find("BoardControllerObject"); 
+					boardControllerObject.GetComponent<BoardController>().setPlayerLostState(true);
+					boardControllerObject.GetComponent<BoardController>().setTimeMovingFalse();
 				}
+
 				/*
 			else {
 				activateNewHealth();
 			}
 			*/
-				invincibilityPhase = true;
-				playDamageSound ();
-				StartCoroutine (returnToPurplePlayer (0.0f));
-				StartCoroutine (returnToCyanPlayer (0.2f));
-				StartCoroutine (returnToPurplePlayer (0.4f));
-				StartCoroutine (returnToCyanPlayer (0.6f));
-				StartCoroutine (makeIvcFalse (0.6f));
 			}
 			Text tempDisplay = healthCanvas.transform.Find ("Health").GetComponent<Text> ();
 			tempDisplay.text = "Health: " + currentHealth;

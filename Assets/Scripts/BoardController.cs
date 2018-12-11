@@ -31,7 +31,13 @@ public class BoardController : MonoBehaviour {
 	//public Text timeLimitDisplay;
 	public Canvas timeLimitCanvas;
 
+	//If time's stopped, that's synonymous with the player winning or losing the level.
 	private bool timeStillMoving;
+
+	//this bool modifies level finish condition
+	//false by default, true if the player lost
+	private bool playerLost;
+
 
 	public string nextLevel;
 
@@ -69,6 +75,7 @@ public class BoardController : MonoBehaviour {
 
 		//timer text settings:
 		timeStillMoving = true;
+		playerLost = false;
 		updateTimeLimit();
 	}
 
@@ -224,6 +231,9 @@ public class BoardController : MonoBehaviour {
 		timeStillMoving = false;
 	}
 
+	public void setPlayerLostState(bool value){
+		playerLost = value;
+	}
 	private void OnGUI()
 	{
 		GUIStyle customButtonTemplate = new GUIStyle("button");
@@ -231,13 +241,28 @@ public class BoardController : MonoBehaviour {
 		//onGUI is constantly checking to see if it needs to create a menu, so we'll control all pop up menus from here
 		if(timeStillMoving == false)
 		{
-			RectTransform  tempPanelRT = timeLimitCanvas.transform.Find ("MenuPanel").GetComponent<RectTransform>();
-			tempPanelRT.sizeDelta = new Vector2(700,1000);
-			timeLimitCanvas.transform.Find ("YouWinText").gameObject.SetActive (true);
+			if(playerLost == false){
+				RectTransform  tempPanelRT = timeLimitCanvas.transform.Find ("MenuPanel").GetComponent<RectTransform>();
+				tempPanelRT.sizeDelta = new Vector2(700,1000);
+				timeLimitCanvas.transform.Find ("YouWinText").gameObject.SetActive (true);
+				timeLimitCanvas.transform.Find ("YouWinText").GetComponent<Text> ().text = "You Win!";
 
-			if (GUI.Button (new Rect (Screen.width / 2 - 50, Screen.height / 2 + 10, 100, 50), "Next Level!")) {
-				SceneManager.LoadSceneAsync (nextLevel);
-				//Debug.Log("Clicked the button with text");
+				if (GUI.Button (new Rect (Screen.width / 2 - 50, Screen.height / 2 + 10, 100, 50), "Next Level!")) {
+					SceneManager.LoadSceneAsync (nextLevel);
+					//Debug.Log("Clicked the button with text");
+				}
+			}
+			else{
+				RectTransform  tempPanelRT = timeLimitCanvas.transform.Find ("MenuPanel").GetComponent<RectTransform>();
+				tempPanelRT.GetComponent<Image> ().color = Color.red;
+				tempPanelRT.sizeDelta = new Vector2(700,1000);
+				timeLimitCanvas.transform.Find ("YouWinText").gameObject.SetActive (true);
+				timeLimitCanvas.transform.Find ("YouWinText").GetComponent<Text> ().text = "You Lose!";
+
+				if (GUI.Button (new Rect (Screen.width / 2 - 100, Screen.height / 2 + 10, 150, 50), "Restart this Level!")) {
+					SceneManager.LoadSceneAsync (SceneManager.GetActiveScene ().name);
+					//Debug.Log("Clicked the button with text");
+				}
 			}
 		}
 	}
