@@ -2980,6 +2980,11 @@ Prefab:
       propertyPath: healthCanvas
       value: 
       objectReference: {fileID: 714734468}
+    - target: {fileID: 23455240629639642, guid: 06a4c8218945f894a9e6cdfaf9ae2c6d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 927026374374aec4592e28cfc7e22777, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06a4c8218945f894a9e6cdfaf9ae2c6d, type: 2}
   m_IsPrefabAsset: 0
