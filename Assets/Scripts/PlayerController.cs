@@ -20,6 +20,9 @@ public class PlayerController : MonoBehaviour
 	public float velocity;
 	static public float maxHealth = 3.0f;
 	static public float currentHealth;
+
+	//controls when the player is invincible. false by default
+	private bool invincibilityPhase;
 	
 	public Canvas healthCanvas;
 	void Start()
@@ -34,6 +37,7 @@ public class PlayerController : MonoBehaviour
 		material = GetComponent<Renderer>().material;
 		material.color = Color.cyan;
 		activateNewHealth();
+		invincibilityPhase = false;
     }
     void FixedUpdate()
     {	
@@ -135,7 +139,7 @@ public class PlayerController : MonoBehaviour
 
 	// and here's the method that will be used by the moving, trigger, collisionless enemies/sentries
 	public void OnTriggerEnter(Collider other) {
-		if (activated == true) {
+		if (activated == true && invincibilityPhase == false) {
 			if (other.tag == "Enemy") {
 				Debug.Log ("HIT");
 				if (currentHealth > 0) {
@@ -146,11 +150,13 @@ public class PlayerController : MonoBehaviour
 				activateNewHealth();
 			}
 			*/
+				invincibilityPhase = true;
 				playDamageSound ();
 				StartCoroutine (returnToPurplePlayer (0.0f));
 				StartCoroutine (returnToCyanPlayer (0.2f));
 				StartCoroutine (returnToPurplePlayer (0.4f));
 				StartCoroutine (returnToCyanPlayer (0.6f));
+				StartCoroutine (makeIvcFalse (0.6f));
 			}
 			Text tempDisplay = healthCanvas.transform.Find ("Health").GetComponent<Text> ();
 			tempDisplay.text = "Health: " + currentHealth;
@@ -173,6 +179,13 @@ public class PlayerController : MonoBehaviour
 		Material player_material = gameObject.GetComponent<Renderer>().material;
 
 		player_material.color = Color.magenta;
+	}
+
+	// after a delay, invincibility flag set to false
+	private IEnumerator makeIvcFalse(float waitTime)
+	{
+		yield return new WaitForSeconds(waitTime);
+		invincibilityPhase = false;
 	}
 
 	private void playDamageSound(){
