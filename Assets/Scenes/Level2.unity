@@ -1817,7 +1817,7 @@ Prefab:
     - target: {fileID: 114432394308712894, guid: 958bb5183c5ceab4ebbe6d63a8a56a91,
         type: 2}
       propertyPath: nextLevel
-      value: Level1
+      value: Level3
       objectReference: {fileID: 0}
     - target: {fileID: 114432394308712894, guid: 958bb5183c5ceab4ebbe6d63a8a56a91,
         type: 2}
