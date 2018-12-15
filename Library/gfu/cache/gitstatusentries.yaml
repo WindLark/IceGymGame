@@ -12,24 +12,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-15T11:31:58.483-05:00
+  lastUpdatedAtString: 2018-12-15T11:54:42.077-05:00
   initializedAtString: 2018-12-15T05:10:20.066-05:00
   entries:
-  - path: Assets\Prefabs\Enemy_1_2D_Mode.prefab
-    fullPath: D:\Unity\IceGymGame\Assets\Prefabs\Enemy_1_2D_Mode.prefab
-    projectPath: Assets\Prefabs\Enemy_1_2D_Mode.prefab
+  - path: Assets\Prefabs\Canvas_UI.prefab
+    fullPath: D:\Unity\IceGymGame\Assets\Prefabs\Canvas_UI.prefab
+    projectPath: Assets\Prefabs\Canvas_UI.prefab
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Prefabs\Enemy_1_2D_Mode.prefab.meta
-    fullPath: D:\Unity\IceGymGame\Assets\Prefabs\Enemy_1_2D_Mode.prefab.meta
-    projectPath: Assets\Prefabs\Enemy_1_2D_Mode.prefab.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets\Scenes\Level1.unity
     fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
     projectPath: Assets\Scenes\Level1.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\BoardController.cs
+    fullPath: D:\Unity\IceGymGame\Assets\Scripts\BoardController.cs
+    projectPath: Assets\Scripts\BoardController.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: IceGymGame.userprefs
+    fullPath: D:\Unity\IceGymGame\IceGymGame.userprefs
+    projectPath: IceGymGame.userprefs
     originalPath: 
     status: 3
     staged: 0
@@ -38,6 +44,12 @@ MonoBehaviour:
     projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library\CrashedAssetImports.txt
+    fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    status: 1
     staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
@@ -69,15 +81,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6
-    fullPath: D:\Unity\IceGymGame\Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6
-    projectPath: Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6
+  - path: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+    fullPath: D:\Unity\IceGymGame\Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+    projectPath: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6.info
-    fullPath: D:\Unity\IceGymGame\Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6.info
-    projectPath: Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6.info
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
-    status: 1
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
     staged: 0

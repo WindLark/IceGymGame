@@ -464,7 +464,7 @@ Camera:
   far clip plane: 1000
   field of view: 60.253315
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1026,21 +1026,26 @@ Prefab:
     - target: {fileID: 65543778682823768, guid: a743ba10c4fc4294382302e10ba8b96d,
         type: 2}
       propertyPath: m_Size.x
-      value: 1.7927377
+      value: 1.6466691
       objectReference: {fileID: 0}
     - target: {fileID: 65543778682823768, guid: a743ba10c4fc4294382302e10ba8b96d,
         type: 2}
       propertyPath: m_Center.x
-      value: 0.018707395
+      value: -0.054326892
       objectReference: {fileID: 0}
     - target: {fileID: 65543778682823768, guid: a743ba10c4fc4294382302e10ba8b96d,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4313475627883032, guid: a743ba10c4fc4294382302e10ba8b96d, type: 2}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65543778682823768, guid: a743ba10c4fc4294382302e10ba8b96d,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a743ba10c4fc4294382302e10ba8b96d, type: 2}
@@ -1223,6 +1228,26 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65543778682823768, guid: a743ba10c4fc4294382302e10ba8b96d,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 3.8259425
+      objectReference: {fileID: 0}
+    - target: {fileID: 65543778682823768, guid: a743ba10c4fc4294382302e10ba8b96d,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 0.90920067
+      objectReference: {fileID: 0}
+    - target: {fileID: 65543778682823768, guid: a743ba10c4fc4294382302e10ba8b96d,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.9048
+      objectReference: {fileID: 0}
+    - target: {fileID: 65543778682823768, guid: a743ba10c4fc4294382302e10ba8b96d,
+        type: 2}
+      propertyPath: m_Center.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a743ba10c4fc4294382302e10ba8b96d, type: 2}

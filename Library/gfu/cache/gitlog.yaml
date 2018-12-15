@@ -12,9 +12,97 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-15T11:27:34.774-05:00
+  lastUpdatedAtString: 2018-12-15T11:34:04.627-05:00
   initializedAtString: 2018-12-15T08:12:36.197-05:00
   log:
+  - commitID: 77ec61e2f683b07859835b8148a9ea498c13fa5b
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: Made enemy prefab, changed enemy position in level 1
+    description: "Made enemy prefab, changed enemy position in level 1\r\n\r\nImportant
+      Note: Enemies should have a capsule collider that is not a trigger so that damage-taking
+      works properly (clipping will cause multiple damage events to fire.)\r\n\r\nI
+      feel like it may be wise to not even have enemies in level 1, we should consider
+      wanting the player to be introduced to concepts about the game one at a time."
+    timeString: 2018-12-15T11:34:02.000-05:00
+    commitTimeString: 2018-12-15T11:34:02.000-05:00
+    changes:
+    - path: Assets\Prefabs\Enemy_1_2D_Mode.prefab
+      fullPath: D:\Unity\IceGymGame\Assets\Prefabs\Enemy_1_2D_Mode.prefab
+      projectPath: Assets\Prefabs\Enemy_1_2D_Mode.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Enemy_1_2D_Mode.prefab.meta
+      fullPath: D:\Unity\IceGymGame\Assets\Prefabs\Enemy_1_2D_Mode.prefab.meta
+      projectPath: Assets\Prefabs\Enemy_1_2D_Mode.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Level1.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CrashedAssetImports.txt
+      fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
+      projectPath: Library\CrashedAssetImports.txt
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6
+      fullPath: D:\Unity\IceGymGame\Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6
+      projectPath: Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6.info
+      fullPath: D:\Unity\IceGymGame\Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6.info
+      projectPath: Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6.info
+      originalPath: 
+      status: 4
+      staged: 0
   - commitID: aa28673414a867e037aba6323d743e05db184288
     mergeA: 
     mergeB: 
