@@ -12,9 +12,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-15T11:27:07.215-05:00
+  lastUpdatedAtString: 2018-12-15T11:31:58.483-05:00
   initializedAtString: 2018-12-15T05:10:20.066-05:00
   entries:
+  - path: Assets\Prefabs\Enemy_1_2D_Mode.prefab
+    fullPath: D:\Unity\IceGymGame\Assets\Prefabs\Enemy_1_2D_Mode.prefab
+    projectPath: Assets\Prefabs\Enemy_1_2D_Mode.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\Enemy_1_2D_Mode.prefab.meta
+    fullPath: D:\Unity\IceGymGame\Assets\Prefabs\Enemy_1_2D_Mode.prefab.meta
+    projectPath: Assets\Prefabs\Enemy_1_2D_Mode.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Assets\Scenes\Level1.unity
     fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
     projectPath: Assets\Scenes\Level1.unity
@@ -26,12 +38,6 @@ MonoBehaviour:
     projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\CrashedAssetImports.txt
-    fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
@@ -62,4 +68,16 @@ MonoBehaviour:
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6
+    fullPath: D:\Unity\IceGymGame\Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6
+    projectPath: Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6.info
+    projectPath: Library\metadata\4f\4f69ac1dae5bd9248bedc92635d1aad6.info
+    originalPath: 
+    status: 1
     staged: 0
