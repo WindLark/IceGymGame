@@ -204,4 +204,8 @@ public class PlayerController : MonoBehaviour
 		soundList[2].Play();
 	}
 
+	public void setAbletoMove(bool value){
+		activated = value;
+	}
+
 }

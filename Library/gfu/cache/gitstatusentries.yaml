@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-16T06:44:57.779-05:00
+  lastUpdatedAtString: 2018-12-16T07:13:46.469-05:00
   initializedAtString: 2018-12-16T03:47:51.603-05:00
   entries:
-  - path: Assets\Scenes\MainMenu.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\MainMenu.unity
-    projectPath: Assets\Scenes\MainMenu.unity
+  - path: Assets\Scripts\BoardController.cs
+    fullPath: D:\Unity\IceGymGame\Assets\Scripts\BoardController.cs
+    projectPath: Assets\Scripts\BoardController.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\MenuController.cs
-    fullPath: D:\Unity\IceGymGame\Assets\Scripts\MenuController.cs
-    projectPath: Assets\Scripts\MenuController.cs
+  - path: Assets\Scripts\PlayerController.cs
+    fullPath: D:\Unity\IceGymGame\Assets\Scripts\PlayerController.cs
+    projectPath: Assets\Scripts\PlayerController.cs
     originalPath: 
     status: 3
     staged: 0
@@ -37,7 +37,7 @@ MonoBehaviour:
     fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
     projectPath: Library\CrashedAssetImports.txt
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
@@ -69,9 +69,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\5d\5dbc41379a137714fa3aa8e4721a69e8
-    fullPath: D:\Unity\IceGymGame\Library\metadata\5d\5dbc41379a137714fa3aa8e4721a69e8
-    projectPath: Library\metadata\5d\5dbc41379a137714fa3aa8e4721a69e8
+  - path: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+    fullPath: D:\Unity\IceGymGame\Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+    projectPath: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+    fullPath: D:\Unity\IceGymGame\Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+    projectPath: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
     originalPath: 
     status: 3
     staged: 0

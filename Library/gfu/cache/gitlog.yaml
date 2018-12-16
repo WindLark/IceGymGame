@@ -12,9 +12,111 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-16T06:04:38.272-05:00
+  lastUpdatedAtString: 2018-12-16T06:50:15.285-05:00
   initializedAtString: 2018-12-16T04:29:07.609-05:00
   log:
+  - commitID: 2b49c5a0974d1b1d2505b01a4b68f5ee1d5738ba
+    mergeA: 
+    mergeB: 
+    authorName: Peter Ly
+    authorEmail: 36087674+WindLark@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update README.md
+    description: Update README.md
+    timeString: 2018-12-16T06:49:35.000-05:00
+    commitTimeString: 2018-12-16T06:49:35.000-05:00
+    changes:
+    - path: README.md
+      fullPath: D:\Unity\IceGymGame\README.md
+      projectPath: README.md
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: b4f93cc2f757ec9f54774e243ef3d964dbb4a94b
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: Finishing up menu
+    description: Finishing up menu
+    timeString: 2018-12-16T06:45:10.000-05:00
+    commitTimeString: 2018-12-16T06:45:10.000-05:00
+    changes:
+    - path: Assets\Scenes\MainMenu.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\MainMenu.unity
+      projectPath: Assets\Scenes\MainMenu.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\MenuController.cs
+      fullPath: D:\Unity\IceGymGame\Assets\Scripts\MenuController.cs
+      projectPath: Assets\Scripts\MenuController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CrashedAssetImports.txt
+      fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
+      projectPath: Library\CrashedAssetImports.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\5d\5dbc41379a137714fa3aa8e4721a69e8
+      fullPath: D:\Unity\IceGymGame\Library\metadata\5d\5dbc41379a137714fa3aa8e4721a69e8
+      projectPath: Library\metadata\5d\5dbc41379a137714fa3aa8e4721a69e8
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 46244c139cb5d2b3d11c274bc513fcf5ff33347d
     mergeA: 
     mergeB: 
