@@ -12,9 +12,88 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-15T13:15:20.338-05:00
+  lastUpdatedAtString: 2018-12-15T13:19:08.379-05:00
   initializedAtString: 2018-12-15T08:12:36.197-05:00
   log:
+  - commitID: 04110fbfa98ff216eb86174d3929dd18f676e9e4
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: WolfieFish made as an enemy prefab
+    description: "WolfieFish made as an enemy prefab\r\n\r\nSpawn copies of this prefab
+      and modify them if you want to put WolfieFish in levels"
+    timeString: 2018-12-15T13:16:01.000-05:00
+    commitTimeString: 2018-12-15T13:16:01.000-05:00
+    changes:
+    - path: Assets\Prefabs\WolfieFish.prefab
+      fullPath: D:\Unity\IceGymGame\Assets\Prefabs\WolfieFish.prefab
+      projectPath: Assets\Prefabs\WolfieFish.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\WolfieFish.prefab.meta
+      fullPath: D:\Unity\IceGymGame\Assets\Prefabs\WolfieFish.prefab.meta
+      projectPath: Assets\Prefabs\WolfieFish.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Level1.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\0f\0ffffde99e4db7046842e02c64d142ad
+      fullPath: D:\Unity\IceGymGame\Library\metadata\0f\0ffffde99e4db7046842e02c64d142ad
+      projectPath: Library\metadata\0f\0ffffde99e4db7046842e02c64d142ad
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\0f\0ffffde99e4db7046842e02c64d142ad.info
+      fullPath: D:\Unity\IceGymGame\Library\metadata\0f\0ffffde99e4db7046842e02c64d142ad.info
+      projectPath: Library\metadata\0f\0ffffde99e4db7046842e02c64d142ad.info
+      originalPath: 
+      status: 4
+      staged: 0
   - commitID: 34a1eb4164655fe5757c62d1ce28b4d40dc800b4
     mergeA: 
     mergeB: 
