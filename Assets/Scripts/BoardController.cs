@@ -243,11 +243,12 @@ public class BoardController : MonoBehaviour {
 		{
 			if(playerLost == false){
 				RectTransform  tempPanelRT = timeLimitCanvas.transform.Find ("MenuPanel").GetComponent<RectTransform>();
-				tempPanelRT.sizeDelta = new Vector2(700,1000);
+				tempPanelRT.sizeDelta = new Vector2(300,1000);
 				timeLimitCanvas.transform.Find ("YouWinText").gameObject.SetActive (true);
 				timeLimitCanvas.transform.Find ("YouWinText").GetComponent<Text> ().text = "You Win!";
 
-				if (GUI.Button (new Rect (Screen.width / 2 - 50, Screen.height / 2 + 10, 100, 50), "Next Level!")) {
+				//if (GUI.Button (new Rect (Screen.width / 2 - 50, Screen.height / 2 + 10, 100, 50), "Next Level!")) {
+				if (GUI.Button (new Rect (Screen.width / 2 - 351, Screen.height / 2 + 10, 100, 50), "Next Level!")) {
 					SceneManager.LoadSceneAsync (nextLevel);
 					//Debug.Log("Clicked the button with text");
 				}
@@ -255,11 +256,14 @@ public class BoardController : MonoBehaviour {
 			else{
 				RectTransform  tempPanelRT = timeLimitCanvas.transform.Find ("MenuPanel").GetComponent<RectTransform>();
 				tempPanelRT.GetComponent<Image> ().color = Color.red;
-				tempPanelRT.sizeDelta = new Vector2(700,1000);
+				var tempColor = tempPanelRT.GetComponent<Image> ().color;
+				tempColor.a = 0.5f;
+				tempPanelRT.GetComponent<Image> ().color = tempColor;
+				tempPanelRT.sizeDelta = new Vector2(300,1000);
 				timeLimitCanvas.transform.Find ("YouWinText").gameObject.SetActive (true);
 				timeLimitCanvas.transform.Find ("YouWinText").GetComponent<Text> ().text = "You Lose!";
 
-				if (GUI.Button (new Rect (Screen.width / 2 - 100, Screen.height / 2 + 10, 150, 50), "Restart this Level!")) {
+				if (GUI.Button (new Rect (Screen.width / 2 - 351, Screen.height / 2 + 10, 150, 50), "Restart this Level!")) {
 					SceneManager.LoadSceneAsync (SceneManager.GetActiveScene ().name);
 					//Debug.Log("Clicked the button with text");
 				}

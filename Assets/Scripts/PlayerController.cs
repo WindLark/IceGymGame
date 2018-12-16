@@ -62,10 +62,12 @@ public class PlayerController : MonoBehaviour
 			// var z = Input.GetAxis("Horizontal") * Time.deltaTime * 5.0f;
 			//var velocity = 30f * Time.deltaTime;
 			var velocity = 50f;
+			/*
 			Debug.Log ("X Velocity: " + v3Velocity.x);
 			Debug.Log ("Z Velocity: " + v3Velocity.z);
 			Debug.Log("" + x);
 			Debug.Log("" + z);
+			*/
 			//if (x == 1 || x == -1) {
 			if (x != 0 ) {
 				if (x > 0) {
