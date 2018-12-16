@@ -12,9 +12,93 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-16T05:10:03.158-05:00
+  lastUpdatedAtString: 2018-12-16T06:04:38.272-05:00
   initializedAtString: 2018-12-16T04:29:07.609-05:00
   log:
+  - commitID: 46244c139cb5d2b3d11c274bc513fcf5ff33347d
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: Menu rework, added small help menu
+    description: Menu rework, added small help menu
+    timeString: 2018-12-16T06:04:36.000-05:00
+    commitTimeString: 2018-12-16T06:04:36.000-05:00
+    changes:
+    - path: Assets\Scenes\MainMenu.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\MainMenu.unity
+      projectPath: Assets\Scenes\MainMenu.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\MenuController.cs
+      fullPath: D:\Unity\IceGymGame\Assets\Scripts\MenuController.cs
+      projectPath: Assets\Scripts\MenuController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: IceGymGame.userprefs
+      fullPath: D:\Unity\IceGymGame\IceGymGame.userprefs
+      projectPath: IceGymGame.userprefs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\5d\5dbc41379a137714fa3aa8e4721a69e8
+      fullPath: D:\Unity\IceGymGame\Library\metadata\5d\5dbc41379a137714fa3aa8e4721a69e8
+      projectPath: Library\metadata\5d\5dbc41379a137714fa3aa8e4721a69e8
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 489e154498e50d4ba29aed7f52ee3ffce2d0b0d4
     mergeA: 
     mergeB: 

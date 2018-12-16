@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-16T06:02:39.377-05:00
+  lastUpdatedAtString: 2018-12-16T06:44:57.779-05:00
   initializedAtString: 2018-12-16T03:47:51.603-05:00
   entries:
   - path: Assets\Scenes\MainMenu.unity
@@ -27,17 +27,17 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: IceGymGame.userprefs
-    fullPath: D:\Unity\IceGymGame\IceGymGame.userprefs
-    projectPath: IceGymGame.userprefs
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\assetDatabase3
     fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library\CrashedAssetImports.txt
+    fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    status: 1
     staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml

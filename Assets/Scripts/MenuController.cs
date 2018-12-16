@@ -9,6 +9,8 @@ public class MenuController : MonoBehaviour {
 	void Start () {
 		GameObject help = GameObject.Find("HelpCanvas");
 		help.transform.GetChild (0).gameObject.SetActive(false);
+		GameObject LS = GameObject.Find("LevelSelectCanvas");
+		LS.transform.GetChild (0).gameObject.SetActive(false);
 		//help.GetComponent ("Panel").enabled = false;
 	}
 	
@@ -29,6 +31,14 @@ public class MenuController : MonoBehaviour {
 			help.transform.GetChild (0).gameObject.SetActive (true);
 		} else {
 			help.transform.GetChild (0).gameObject.SetActive (false);
+		}
+	}
+	public void displayLSMenu(){
+		GameObject LS = GameObject.Find("LevelSelectCanvas");
+		if (LS.transform.GetChild (0).gameObject.activeSelf == false) {
+			LS.transform.GetChild (0).gameObject.SetActive (true);
+		} else {
+			LS.transform.GetChild (0).gameObject.SetActive (false);
 		}
 	}
 	public void quit(){
