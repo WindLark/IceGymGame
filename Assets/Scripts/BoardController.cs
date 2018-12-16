@@ -86,6 +86,9 @@ public class BoardController : MonoBehaviour {
 			timeLimit -= Time.deltaTime;
 			updateTimeLimit ();
 		}
+		if (Input.GetKeyDown (KeyCode.Escape)) {
+			SceneManager.LoadSceneAsync ("MainMenu");
+		}
 		//
 		if (Input.GetKeyDown(KeyCode.Space))
 		{

@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-16T07:13:46.469-05:00
+  lastUpdatedAtString: 2018-12-16T07:30:16.150-05:00
   initializedAtString: 2018-12-16T03:47:51.603-05:00
   entries:
-  - path: Assets\Scripts\BoardController.cs
-    fullPath: D:\Unity\IceGymGame\Assets\Scripts\BoardController.cs
-    projectPath: Assets\Scripts\BoardController.cs
+  - path: Assets\Scenes\MainMenu.unity
+    fullPath: D:\Unity\IceGymGame\Assets\Scenes\MainMenu.unity
+    projectPath: Assets\Scenes\MainMenu.unity
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\PlayerController.cs
-    fullPath: D:\Unity\IceGymGame\Assets\Scripts\PlayerController.cs
-    projectPath: Assets\Scripts\PlayerController.cs
+  - path: Assets\Scripts\BoardController.cs
+    fullPath: D:\Unity\IceGymGame\Assets\Scripts\BoardController.cs
+    projectPath: Assets\Scripts\BoardController.cs
     originalPath: 
     status: 3
     staged: 0
@@ -32,12 +32,6 @@ MonoBehaviour:
     projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\CrashedAssetImports.txt
-    fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
-    originalPath: 
-    status: 5
     staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
@@ -72,12 +66,6 @@ MonoBehaviour:
   - path: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
     fullPath: D:\Unity\IceGymGame\Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
     projectPath: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
-    fullPath: D:\Unity\IceGymGame\Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
-    projectPath: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
     originalPath: 
     status: 3
     staged: 0

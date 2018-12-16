@@ -1479,10 +1479,11 @@ MonoBehaviour:
   m_Text: "Mr. Jelly Cube was living a peaceful life in his owner's freezer until\nthe
     WerewolfFishes attacked. They have  messed up his owner's \ncarefully organized
     treats! Your goal is to to help Jelly Cube escape the \nchaos by sliding your
-    way around the fridge with the arrow keys.\n\nIf you are stuck, hit Space Bar
-    to look at the level a different way!\nJelly Cube might discover pathways that
-    weren't there before, rotate the\nfield, or do other wild things with his dimension
-    hopping abilities."
+    way around the fridge with the WASD or arrow keys.\n\nIf you are stuck, hit Space
+    Bar to look at the level a different way!\nJelly Cube might discover pathways
+    that weren't there before, rotate the\nfield, or do other wild things with his
+    dimension hopping abilities.\n\nTo return to the main menu while playing, hit
+    the Esc key!"
 --- !u!222 &974685092
 CanvasRenderer:
   m_ObjectHideFlags: 0
