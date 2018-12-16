@@ -12,9 +12,141 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-15T13:19:08.379-05:00
-  initializedAtString: 2018-12-15T08:12:36.197-05:00
+  lastUpdatedAtString: 2018-12-16T04:29:07.609-05:00
+  initializedAtString: 2018-12-16T04:29:07.609-05:00
   log:
+  - commitID: fd10eec1668d64fdd502a838a0d57232396dfb07
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: Start of Level 2 Rework
+    description: Start of Level 2 Rework
+    timeString: 2018-12-16T04:16:18.000-05:00
+    commitTimeString: 2018-12-16T04:16:18.000-05:00
+    changes:
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: D:\Unity\IceGymGame\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: D:\Unity\IceGymGame\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Models\Popsicle\Materials\lightpurple.mat
+      fullPath: D:\Unity\IceGymGame\Assets\Models\Popsicle\Materials\lightpurple.mat
+      projectPath: Assets\Models\Popsicle\Materials\lightpurple.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\Popsicle\Materials\lightpurple.mat.meta
+      fullPath: D:\Unity\IceGymGame\Assets\Models\Popsicle\Materials\lightpurple.mat.meta
+      projectPath: Assets\Models\Popsicle\Materials\lightpurple.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Level2.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level2.unity
+      projectPath: Assets\Scenes\Level2.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: IceGymGame.userprefs
+      fullPath: D:\Unity\IceGymGame\IceGymGame.userprefs
+      projectPath: IceGymGame.userprefs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: D:\Unity\IceGymGame\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\EditorInstance.json
+      fullPath: D:\Unity\IceGymGame\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: D:\Unity\IceGymGame\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: D:\Unity\IceGymGame\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\58\58d63614e203af3409f510cc2f25594b
+      fullPath: D:\Unity\IceGymGame\Library\metadata\58\58d63614e203af3409f510cc2f25594b
+      projectPath: Library\metadata\58\58d63614e203af3409f510cc2f25594b
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\58\58d63614e203af3409f510cc2f25594b.info
+      fullPath: D:\Unity\IceGymGame\Library\metadata\58\58d63614e203af3409f510cc2f25594b.info
+      projectPath: Library\metadata\58\58d63614e203af3409f510cc2f25594b.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 04110fbfa98ff216eb86174d3929dd18f676e9e4
     mergeA: 
     mergeB: 

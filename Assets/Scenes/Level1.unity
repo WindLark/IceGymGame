@@ -1639,6 +1639,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 114986450430139872, guid: 0ffffde99e4db7046842e02c64d142ad,
+        type: 2}
+      propertyPath: rotatePattern
+      value: Z Axis
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ffffde99e4db7046842e02c64d142ad, type: 2}
   m_IsPrefabAsset: 0
@@ -2359,7 +2364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPosition: {x: -1.5, y: -14.5, z: -3}
   endPosition: {x: -1.5, y: -14.5, z: 1}
-  canRotate: 1
+  rotatePattern: Z Axis
   speed: 0.5
 --- !u!136 &1596381049
 CapsuleCollider:
