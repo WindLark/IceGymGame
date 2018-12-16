@@ -12,9 +12,105 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-16T04:29:07.609-05:00
+  lastUpdatedAtString: 2018-12-16T05:10:03.158-05:00
   initializedAtString: 2018-12-16T04:29:07.609-05:00
   log:
+  - commitID: 489e154498e50d4ba29aed7f52ee3ffce2d0b0d4
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: Level 2 Rework Complete
+    description: "Level 2 Rework Complete\r\n\r\nFully functional fish-wolfie enemies
+      are now in level 2.\r\n\r\nInstead of using a boolean to check if rotation is
+      desired Enemy_Pathing.cs now has a SerializableField rotatePattern that takes
+      a string argument. The valid arguments are \"Z Axis\", \"Z Axis Reverse\", \"X
+      Axis\", \"X Axis Reverse\". Any other argument will result in a default case
+      with no rotation. For the specifics of which pattern is used to be used where,
+      see Enemy_Pathing.cs comments."
+    timeString: 2018-12-16T05:10:01.000-05:00
+    commitTimeString: 2018-12-16T05:10:01.000-05:00
+    changes:
+    - path: Assets\Scenes\Level1.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level2.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level2.unity
+      projectPath: Assets\Scenes\Level2.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Enemy_Pathing.cs
+      fullPath: D:\Unity\IceGymGame\Assets\Scripts\Enemy_Pathing.cs
+      projectPath: Assets\Scripts\Enemy_Pathing.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CrashedAssetImports.txt
+      fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
+      projectPath: Library\CrashedAssetImports.txt
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da
+      fullPath: D:\Unity\IceGymGame\Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da
+      projectPath: Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: fd10eec1668d64fdd502a838a0d57232396dfb07
     mergeA: 
     mergeB: 

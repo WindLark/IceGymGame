@@ -12,24 +12,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-16T05:07:06.884-05:00
+  lastUpdatedAtString: 2018-12-16T06:02:39.377-05:00
   initializedAtString: 2018-12-16T03:47:51.603-05:00
   entries:
-  - path: Assets\Scenes\Level1.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
-    projectPath: Assets\Scenes\Level1.unity
+  - path: Assets\Scenes\MainMenu.unity
+    fullPath: D:\Unity\IceGymGame\Assets\Scenes\MainMenu.unity
+    projectPath: Assets\Scenes\MainMenu.unity
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scenes\Level2.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level2.unity
-    projectPath: Assets\Scenes\Level2.unity
+  - path: Assets\Scripts\MenuController.cs
+    fullPath: D:\Unity\IceGymGame\Assets\Scripts\MenuController.cs
+    projectPath: Assets\Scripts\MenuController.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\Enemy_Pathing.cs
-    fullPath: D:\Unity\IceGymGame\Assets\Scripts\Enemy_Pathing.cs
-    projectPath: Assets\Scripts\Enemy_Pathing.cs
+  - path: IceGymGame.userprefs
+    fullPath: D:\Unity\IceGymGame\IceGymGame.userprefs
+    projectPath: IceGymGame.userprefs
     originalPath: 
     status: 3
     staged: 0
@@ -69,9 +69,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da
-    fullPath: D:\Unity\IceGymGame\Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da
-    projectPath: Library\metadata\d8\d83598e7c7437ab4f918e978f70a48da
+  - path: Library\metadata\5d\5dbc41379a137714fa3aa8e4721a69e8
+    fullPath: D:\Unity\IceGymGame\Library\metadata\5d\5dbc41379a137714fa3aa8e4721a69e8
+    projectPath: Library\metadata\5d\5dbc41379a137714fa3aa8e4721a69e8
     originalPath: 
     status: 3
     staged: 0
