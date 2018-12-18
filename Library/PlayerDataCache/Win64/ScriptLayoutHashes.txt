@@ -8,6 +8,7 @@ Assets/Scenes/Level2.unity
 Assets/Scenes/Level3.unity
 Assets/Scenes/Level4.unity
 Assets/Scenes/Level5.unity
+Assets/Scenes/HelpMenu_Backup.unity
 Assets/Scenes/HelpMenu.unity
 SceneListEnd?
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
