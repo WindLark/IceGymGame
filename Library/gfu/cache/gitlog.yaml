@@ -12,9 +12,88 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-16T07:26:35.888-05:00
+  lastUpdatedAtString: 2018-12-16T07:31:03.029-05:00
   initializedAtString: 2018-12-16T04:29:07.609-05:00
   log:
+  - commitID: aed70dcea264034ae2475967827a44229f7bbe1e
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: QoL Changes
+    description: "QoL Changes\r\n\r\nIf you hit Escape while on a level you'll go
+      back to the main menu.\r\n\r\nClarified Help Menu a bit."
+    timeString: 2018-12-16T07:30:56.000-05:00
+    commitTimeString: 2018-12-16T07:30:56.000-05:00
+    changes:
+    - path: Assets\Scenes\MainMenu.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\MainMenu.unity
+      projectPath: Assets\Scenes\MainMenu.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\BoardController.cs
+      fullPath: D:\Unity\IceGymGame\Assets\Scripts\BoardController.cs
+      projectPath: Assets\Scripts\BoardController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+      fullPath: D:\Unity\IceGymGame\Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+      projectPath: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 1ba1b495d581b54994fbfd40b897784a41f10d84
     mergeA: 
     mergeB: 
