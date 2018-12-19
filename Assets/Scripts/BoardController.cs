@@ -257,12 +257,12 @@ public class BoardController : MonoBehaviour {
 
 
 				//if (GUI.Button (new Rect (Screen.width / 2 - 50, Screen.height / 2 + 10, 100, 50), "Next Level!")) {
-				if (GUI.Button (new Rect (Screen.width / 2 - 351, Screen.height / 2 + 10, 100, 50), "Next Level!")) {
+				if (GUI.Button (new Rect (Screen.width / 2 - (float)(Screen.width / 2.3), Screen.height / 2 - Screen.height / 10, 100, 50), "Next Level!")) {
 					SceneManager.LoadSceneAsync (nextLevel);
 					//Debug.Log("Clicked the button with text");
 				}
 
-				if (GUI.Button (new Rect (Screen.width / 2 - 351, Screen.height / 2 + 70, 100, 50), "Main Menu")) {
+				if (GUI.Button (new Rect (Screen.width / 2 - (float)(Screen.width / 2.3), Screen.height / 2 + Screen.height / 10, 100, 50), "Main Menu")) {
 					SceneManager.LoadSceneAsync ("MainMenu");
 					//Debug.Log("Clicked the button with text");
 				}
@@ -277,12 +277,12 @@ public class BoardController : MonoBehaviour {
 				timeLimitCanvas.transform.Find ("YouWinText").gameObject.SetActive (true);
 				timeLimitCanvas.transform.Find ("YouWinText").GetComponent<Text> ().text = "You Lose!";
 
-				if (GUI.Button (new Rect (Screen.width / 2 - 351, Screen.height / 2 + 10, 150, 50), "Restart this Level!")) {
+				if (GUI.Button (new Rect (Screen.width / 2 - (float)(Screen.width / 2.3), Screen.height / 2 - Screen.height / 10, 200, 50), "Restart this Level!")) {
 					SceneManager.LoadSceneAsync (SceneManager.GetActiveScene ().name);
 					//Debug.Log("Clicked the button with text");
 				}
 
-				if (GUI.Button (new Rect (Screen.width / 2 - 351, Screen.height / 2 + 70, 100, 50), "Main Menu")) {
+				if (GUI.Button (new Rect (Screen.width / 2 - (float)(Screen.width / 2.3), Screen.height / 2 + Screen.height / 10, 100, 50), "Main Menu")) {
 					SceneManager.LoadSceneAsync ("MainMenu");
 					//Debug.Log("Clicked the button with text");
 				}
