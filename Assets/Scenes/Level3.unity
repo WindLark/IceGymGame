@@ -1371,12 +1371,12 @@ Prefab:
     - target: {fileID: 114589932046302844, guid: 9f12f5cf475848743ae610c23e94034d,
         type: 2}
       propertyPath: m_Text
-      value: "Orange You Glad \nThey Didn't Go Bad?"
+      value: Fresh Oranges, Bad Milk
       objectReference: {fileID: 0}
     - target: {fileID: 224556132856989020, guid: 9f12f5cf475848743ae610c23e94034d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 80
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f12f5cf475848743ae610c23e94034d, type: 2}

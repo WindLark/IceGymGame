@@ -12,9 +12,232 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-18T19:47:50.247-05:00
-  initializedAtString: 2018-12-18T18:34:55.592-05:00
+  lastUpdatedAtString: 2018-12-19T10:00:01.817-05:00
+  initializedAtString: 2018-12-19T10:00:01.719-05:00
   log:
+  - commitID: 7b9eb9c90bc15513dea1bd2307a4b991cfe828ed
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: Changes to Help Menu and Level 3
+    description: "Changes to Help Menu and Level 3\r\n\r\nHelp Menu Includes Victory
+      Objective Now\r\n\r\nLevel 3 shows carton obstacle with Orange Juice box skin"
+    timeString: 2018-12-19T09:57:33.000-05:00
+    commitTimeString: 2018-12-19T09:57:33.000-05:00
+    changes:
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: D:\Unity\IceGymGame\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Models\MilkCarton\Materials\orangejuice.mat
+      fullPath: D:\Unity\IceGymGame\Assets\Models\MilkCarton\Materials\orangejuice.mat
+      projectPath: Assets\Models\MilkCarton\Materials\orangejuice.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\MilkCarton\Materials\orangejuice.mat.meta
+      fullPath: D:\Unity\IceGymGame\Assets\Models\MilkCarton\Materials\orangejuice.mat.meta
+      projectPath: Assets\Models\MilkCarton\Materials\orangejuice.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\MilkCarton\orangejuice.png
+      fullPath: D:\Unity\IceGymGame\Assets\Models\MilkCarton\orangejuice.png
+      projectPath: Assets\Models\MilkCarton\orangejuice.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\MilkCarton\orangejuice.png.meta
+      fullPath: D:\Unity\IceGymGame\Assets\Models\MilkCarton\orangejuice.png.meta
+      projectPath: Assets\Models\MilkCarton\orangejuice.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\HelpMenu.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\HelpMenu.unity
+      projectPath: Assets\Scenes\HelpMenu.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level3.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level3.unity
+      projectPath: Assets\Scenes\Level3.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\BoardController.cs
+      fullPath: D:\Unity\IceGymGame\Assets\Scripts\BoardController.cs
+      projectPath: Assets\Scripts\BoardController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: IceGymGame.userprefs
+      fullPath: D:\Unity\IceGymGame\IceGymGame.userprefs
+      projectPath: IceGymGame.userprefs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: D:\Unity\IceGymGame\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\EditorInstance.json
+      fullPath: D:\Unity\IceGymGame\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: D:\Unity\IceGymGame\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: D:\Unity\IceGymGame\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\03\036070a863aef8b4089b4766b9175a02
+      fullPath: D:\Unity\IceGymGame\Library\metadata\03\036070a863aef8b4089b4766b9175a02
+      projectPath: Library\metadata\03\036070a863aef8b4089b4766b9175a02
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\03\036070a863aef8b4089b4766b9175a02.info
+      fullPath: D:\Unity\IceGymGame\Library\metadata\03\036070a863aef8b4089b4766b9175a02.info
+      projectPath: Library\metadata\03\036070a863aef8b4089b4766b9175a02.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+      fullPath: D:\Unity\IceGymGame\Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+      projectPath: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\e2\e21acd51671929f45aeeba5fd4e2cebf
+      fullPath: D:\Unity\IceGymGame\Library\metadata\e2\e21acd51671929f45aeeba5fd4e2cebf
+      projectPath: Library\metadata\e2\e21acd51671929f45aeeba5fd4e2cebf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\e2\e21acd51671929f45aeeba5fd4e2cebf.info
+      fullPath: D:\Unity\IceGymGame\Library\metadata\e2\e21acd51671929f45aeeba5fd4e2cebf.info
+      projectPath: Library\metadata\e2\e21acd51671929f45aeeba5fd4e2cebf.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
+      fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe4.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
+      fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe5.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
+      fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe6.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+      fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe7.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 1c8394fddd7facc3ec0cd4878f5d1234a8fffb22
     mergeA: 
     mergeB: 
