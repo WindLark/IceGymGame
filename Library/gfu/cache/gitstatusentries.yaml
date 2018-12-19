@@ -12,50 +12,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-19T10:28:45.285-05:00
+  lastUpdatedAtString: 2018-12-19T10:30:29.179-05:00
   initializedAtString: 2018-12-19T08:03:17.425-05:00
   entries:
-  - path: Assets\Prefabs\carrot.prefab
-    fullPath: D:\Unity\IceGymGame\Assets\Prefabs\carrot.prefab
-    projectPath: Assets\Prefabs\carrot.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Prefabs\carrot.prefab.meta
-    fullPath: D:\Unity\IceGymGame\Assets\Prefabs\carrot.prefab.meta
-    projectPath: Assets\Prefabs\carrot.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scenes\Level1.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
-    projectPath: Assets\Scenes\Level1.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scenes\Level3.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level3.unity
-    projectPath: Assets\Scenes\Level3.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scenes\Level5.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level5.unity
-    projectPath: Assets\Scenes\Level5.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\assetDatabase3
-    fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
-    projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\CrashedAssetImports.txt
     fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
     projectPath: Library\CrashedAssetImports.txt
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
@@ -86,16 +50,4 @@ MonoBehaviour:
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\metadata\ba\babd7bea0c869924faf018cc05d4bfd8
-    fullPath: D:\Unity\IceGymGame\Library\metadata\ba\babd7bea0c869924faf018cc05d4bfd8
-    projectPath: Library\metadata\ba\babd7bea0c869924faf018cc05d4bfd8
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\ba\babd7bea0c869924faf018cc05d4bfd8.info
-    fullPath: D:\Unity\IceGymGame\Library\metadata\ba\babd7bea0c869924faf018cc05d4bfd8.info
-    projectPath: Library\metadata\ba\babd7bea0c869924faf018cc05d4bfd8.info
-    originalPath: 
-    status: 1
     staged: 0

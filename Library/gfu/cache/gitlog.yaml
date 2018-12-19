@@ -12,9 +12,105 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-19T10:00:01.817-05:00
+  lastUpdatedAtString: 2018-12-19T10:30:28.483-05:00
   initializedAtString: 2018-12-19T10:00:01.719-05:00
   log:
+  - commitID: ac502173c64c7060009c5e30c942bb30bb099343
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: Level 5 completed
+    description: Level 5 completed
+    timeString: 2018-12-19T10:29:22.000-05:00
+    commitTimeString: 2018-12-19T10:29:22.000-05:00
+    changes:
+    - path: Assets\Prefabs\carrot.prefab
+      fullPath: D:\Unity\IceGymGame\Assets\Prefabs\carrot.prefab
+      projectPath: Assets\Prefabs\carrot.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\carrot.prefab.meta
+      fullPath: D:\Unity\IceGymGame\Assets\Prefabs\carrot.prefab.meta
+      projectPath: Assets\Prefabs\carrot.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Level1.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level3.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level3.unity
+      projectPath: Assets\Scenes\Level3.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level5.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level5.unity
+      projectPath: Assets\Scenes\Level5.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CrashedAssetImports.txt
+      fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
+      projectPath: Library\CrashedAssetImports.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\ba\babd7bea0c869924faf018cc05d4bfd8
+      fullPath: D:\Unity\IceGymGame\Library\metadata\ba\babd7bea0c869924faf018cc05d4bfd8
+      projectPath: Library\metadata\ba\babd7bea0c869924faf018cc05d4bfd8
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ba\babd7bea0c869924faf018cc05d4bfd8.info
+      fullPath: D:\Unity\IceGymGame\Library\metadata\ba\babd7bea0c869924faf018cc05d4bfd8.info
+      projectPath: Library\metadata\ba\babd7bea0c869924faf018cc05d4bfd8.info
+      originalPath: 
+      status: 4
+      staged: 0
   - commitID: 7b9eb9c90bc15513dea1bd2307a4b991cfe828ed
     mergeA: 
     mergeB: 

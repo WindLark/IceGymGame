@@ -1644,6 +1644,10 @@ Prefab:
       propertyPath: rotatePattern
       value: Z Axis
       objectReference: {fileID: 0}
+    - target: {fileID: 1478139741054632, guid: 0ffffde99e4db7046842e02c64d142ad, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ffffde99e4db7046842e02c64d142ad, type: 2}
   m_IsPrefabAsset: 0
@@ -2464,6 +2468,10 @@ Prefab:
       propertyPath: m_Name
       value: WolfieFish_3D_Mode
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 63eb0cccf4136f343afbdc9fc24b943a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63eb0cccf4136f343afbdc9fc24b943a, type: 3}
   m_IsPrefabAsset: 0
@@ -2780,6 +2788,10 @@ Prefab:
     - target: {fileID: 4466704716785412, guid: 4f69ac1dae5bd9248bedc92635d1aad6, type: 2}
       propertyPath: m_RootOrder
       value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181034557669950, guid: 4f69ac1dae5bd9248bedc92635d1aad6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f69ac1dae5bd9248bedc92635d1aad6, type: 2}
@@ -3116,6 +3128,10 @@ Prefab:
         type: 2}
       propertyPath: endPosition.y
       value: -14.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181034557669950, guid: 4f69ac1dae5bd9248bedc92635d1aad6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f69ac1dae5bd9248bedc92635d1aad6, type: 2}
