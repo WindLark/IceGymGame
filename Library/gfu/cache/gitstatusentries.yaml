@@ -12,20 +12,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-18T18:58:57.015-05:00
+  lastUpdatedAtString: 2018-12-18T19:31:42.824-05:00
   initializedAtString: 2018-12-18T15:52:35.574-05:00
   entries:
-  - path: Assets\Scenes\HelpMenu_Backup.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\HelpMenu_Backup.unity
-    projectPath: Assets\Scenes\HelpMenu_Backup.unity
+  - path: Assets\Prefabs\Canvas_UI.prefab
+    fullPath: D:\Unity\IceGymGame\Assets\Prefabs\Canvas_UI.prefab
+    projectPath: Assets\Prefabs\Canvas_UI.prefab
     originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets\Scenes\HelpMenu_Backup.unity.meta
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\HelpMenu_Backup.unity.meta
-    projectPath: Assets\Scenes\HelpMenu_Backup.unity.meta
-    originalPath: 
-    status: 5
+    status: 3
     staged: 0
   - path: Library\assetDatabase3
     fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
@@ -36,6 +30,12 @@ MonoBehaviour:
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -57,15 +57,87 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\db\dbaba6f3ec91c4c41b7289f7212f8881
-    fullPath: D:\Unity\IceGymGame\Library\metadata\db\dbaba6f3ec91c4c41b7289f7212f8881
-    projectPath: Library\metadata\db\dbaba6f3ec91c4c41b7289f7212f8881
+  - path: Library\LastBuild.buildreport
+    fullPath: D:\Unity\IceGymGame\Library\LastBuild.buildreport
+    projectPath: Library\LastBuild.buildreport
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\globalgamemanagers
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\globalgamemanagers
+    projectPath: Library\PlayerDataCache\Win64\Data\globalgamemanagers
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level1
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level1
+    projectPath: Library\PlayerDataCache\Win64\Data\level1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level2
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level2
+    projectPath: Library\PlayerDataCache\Win64\Data\level2
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level3
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level3
+    projectPath: Library\PlayerDataCache\Win64\Data\level3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level4
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level4
+    projectPath: Library\PlayerDataCache\Win64\Data\level4
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level5
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level5
+    projectPath: Library\PlayerDataCache\Win64\Data\level5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level6
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level6
+    projectPath: Library\PlayerDataCache\Win64\Data\level6
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level7
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level7
+    projectPath: Library\PlayerDataCache\Win64\Data\level7
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\db\dbaba6f3ec91c4c41b7289f7212f8881.info
-    fullPath: D:\Unity\IceGymGame\Library\metadata\db\dbaba6f3ec91c4c41b7289f7212f8881.info
-    projectPath: Library\metadata\db\dbaba6f3ec91c4c41b7289f7212f8881.info
+  - path: Library\PlayerDataCache\Win64\Data\level7.resS
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level7.resS
+    projectPath: Library\PlayerDataCache\Win64\Data\level7.resS
     originalPath: 
     status: 5
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\sharedassets6.assets
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\sharedassets6.assets
+    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets6.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\sharedassets7.assets
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\sharedassets7.assets
+    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets7.assets
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\ScriptLayoutHashes.txt
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\ScriptLayoutHashes.txt
+    projectPath: Library\PlayerDataCache\Win64\ScriptLayoutHashes.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: D:\Unity\IceGymGame\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    status: 3
     staged: 0
