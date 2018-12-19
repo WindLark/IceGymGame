@@ -321,6 +321,9 @@
  <Reference Include="GitHub.Unity">
  <HintPath>D:/Unity/IceGymGame/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
  </Reference>
+ <Reference Include="GitHub.UnityShim">
+ <HintPath>D:/Unity/IceGymGame/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+ </Reference>
  <Reference Include="ReadOnlyCollectionsInterfaces">
  <HintPath>D:/Unity/IceGymGame/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
  </Reference>
@@ -344,9 +347,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Peter/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.UnityShim">
- <HintPath>D:/Unity/IceGymGame/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>

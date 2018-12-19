@@ -84,6 +84,13 @@ public class BoardController : MonoBehaviour {
 		//subtract time from timer
 		if(timeStillMoving == true){
 			timeLimit -= Time.deltaTime;
+			if(timeLimit<= 0){
+				timeLimit = 0;
+				updateTimeLimit ();
+				//player loses if time runs out
+				setPlayerLostState (true);
+				setTimeMovingFalse ();
+			}
 			updateTimeLimit ();
 		}
 		if (Input.GetKeyDown (KeyCode.Escape)) {
@@ -218,8 +225,17 @@ public class BoardController : MonoBehaviour {
 	}
 
 	private void updateTimeLimit(){
-		string minutes = Mathf.Floor((float)(timeLimit / 60f)).ToString();
-		string seconds = Mathf.Floor((float)(timeLimit % 60f)).ToString();
+		float tempmin = Mathf.Floor ((float)(timeLimit / 60f));
+		float tempsec = Mathf.Floor ((float)(timeLimit % 60f));
+		string minutes = tempmin.ToString();
+		string seconds = tempsec.ToString();
+
+		if(tempmin < 10){
+			minutes = "0" + minutes;
+		}
+		if(tempsec < 10){
+			seconds = "0" + seconds;
+		}
 
 		//timeLimitCanvas.transform.FindChild ("TextTimer").text = "Time Left: " + minutes + " : " + seconds;
 		Text tempDisplay = timeLimitCanvas.transform.Find ("TextTimer").GetComponent<Text>();

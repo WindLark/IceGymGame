@@ -12,9 +12,141 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-18T19:32:46.925-05:00
+  lastUpdatedAtString: 2018-12-18T19:47:50.247-05:00
   initializedAtString: 2018-12-18T18:34:55.592-05:00
   log:
+  - commitID: 1c8394fddd7facc3ec0cd4878f5d1234a8fffb22
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: Menu fixes should be complete
+    description: Menu fixes should be complete
+    timeString: 2018-12-18T19:46:25.000-05:00
+    commitTimeString: 2018-12-18T19:46:25.000-05:00
+    changes:
+    - path: Assets\Scripts\BoardController.cs
+      fullPath: D:\Unity\IceGymGame\Assets\Scripts\BoardController.cs
+      projectPath: Assets\Scripts\BoardController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastBuild.buildreport
+      fullPath: D:\Unity\IceGymGame\Library\LastBuild.buildreport
+      projectPath: Library\LastBuild.buildreport
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+      fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+      projectPath: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Win64\Data\globalgamemanagers
+      fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\globalgamemanagers
+      projectPath: Library\PlayerDataCache\Win64\Data\globalgamemanagers
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Win64\Data\level0
+      fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level0
+      projectPath: Library\PlayerDataCache\Win64\Data\level0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Win64\Data\level1
+      fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level1
+      projectPath: Library\PlayerDataCache\Win64\Data\level1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Win64\Data\level2
+      fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level2
+      projectPath: Library\PlayerDataCache\Win64\Data\level2
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Win64\Data\level3
+      fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level3
+      projectPath: Library\PlayerDataCache\Win64\Data\level3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Win64\Data\level4
+      fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level4
+      projectPath: Library\PlayerDataCache\Win64\Data\level4
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Win64\Data\level5
+      fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level5
+      projectPath: Library\PlayerDataCache\Win64\Data\level5
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Win64\Data\level6
+      fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level6
+      projectPath: Library\PlayerDataCache\Win64\Data\level6
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+      fullPath: D:\Unity\IceGymGame\Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+      projectPath: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 705b3f07c0a3b53bdddebb9e02e0ec6c43edd656
     mergeA: 
     mergeB: 

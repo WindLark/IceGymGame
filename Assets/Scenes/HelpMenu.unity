@@ -143,7 +143,7 @@ RectTransform:
   m_Children:
   - {fileID: 440003177}
   m_Father: {fileID: 358294483}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -253,7 +253,7 @@ RectTransform:
   m_LocalScale: {x: 0.50000006, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -322,7 +322,7 @@ RectTransform:
   m_LocalScale: {x: 0.6000055, y: 0.5000001, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -391,7 +391,7 @@ RectTransform:
   m_LocalScale: {x: 0.5065859, y: 0.59341407, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 14.870001}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -518,18 +518,19 @@ RectTransform:
   m_Children:
   - {fileID: 1976086691}
   - {fileID: 821437629}
-  - {fileID: 1555031363}
-  - {fileID: 696828686}
-  - {fileID: 1081127290}
   - {fileID: 38657813}
   - {fileID: 622463248}
   - {fileID: 42820498}
   - {fileID: 1471326630}
-  - {fileID: 543220235}
+  - {fileID: 1000640658}
   - {fileID: 10810006}
+  - {fileID: 1555031363}
+  - {fileID: 696828686}
+  - {fileID: 1081127290}
+  - {fileID: 543220235}
   - {fileID: 1253548618}
-  - {fileID: 948116720}
   - {fileID: 728120375}
+  - {fileID: 948116720}
   - {fileID: 1520521209}
   - {fileID: 326903642}
   - {fileID: 1483301863}
@@ -652,7 +653,7 @@ RectTransform:
   m_Children:
   - {fileID: 1208700772}
   m_Father: {fileID: 358294483}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -773,11 +774,11 @@ RectTransform:
   m_LocalScale: {x: 0.49999994, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110.500015, y: 68.40748}
+  m_AnchoredPosition: {x: 64.500015, y: 68.40748}
   m_SizeDelta: {x: 99, y: 82.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &543220236
@@ -841,7 +842,7 @@ RectTransform:
   m_LocalScale: {x: 0.5000043, y: 0.59999996, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -975,7 +976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &696828686
 RectTransform:
   m_ObjectHideFlags: 0
@@ -987,11 +988,11 @@ RectTransform:
   m_LocalScale: {x: 0.6000004, y: 0.5000047, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 3
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 56, y: 54.607494}
+  m_AnchoredPosition: {x: 9.999996, y: 54.607494}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &696828687
@@ -1060,7 +1061,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -15.5, y: 72.607475}
+  m_AnchoredPosition: {x: -61.500004, y: 72.607475}
   m_SizeDelta: {x: 256.9, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &728120376
@@ -1306,12 +1307,12 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Mr. Jelly Cube was living a peaceful life in his owner's freezer until
     the Wolfie Fishes attacked.  \nThey have messed up his owner's carefully organized
-    treats! \n\n\n\nYour goal is to to help Jelly Cube escape the \nchaos by sliding
-    your way around the fridge with the WASD or arrow keys.\n\n\n\n\nIf you are stuck,
-    hit Space Bar to look at the level a different way!\nJelly Cube might discover
-    pathways that weren't there before, rotate the\nfield, or do other wild things
-    with his dimension hopping abilities.\n\nTo return to the main menu while playing,
-    hit the Esc key!"
+    treats! \n\n\n\nYour goal is to to help Jelly Cube save the Premium Yellow Dino
+    Crisps \nby sliding your way around the fridge with the WASD or arrow keys.\n\n\n\n\nIf
+    you are stuck, hit Space Bar to look at the level a different way!\nJelly Cube
+    might discover pathways that weren't there before, rotate the\nfield, or do other
+    wild things with his dimension hopping abilities.\n\nTo return to the main menu
+    while playing, hit the Esc key!"
 --- !u!222 &821437631
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1347,7 +1348,7 @@ RectTransform:
   m_LocalScale: {x: 0.5000043, y: 0.59999996, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1415,7 +1416,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1462,6 +1463,74 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 975780912}
   m_CullTransparentMesh: 0
+--- !u!1 &1000640657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1000640658}
+  - component: {fileID: 1000640660}
+  - component: {fileID: 1000640659}
+  m_Layer: 5
+  m_Name: hsoy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1000640658
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1000640657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6000093, y: 0.50000495, z: 1}
+  m_Children: []
+  m_Father: {fileID: 358294483}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 150, y: 70}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1000640659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1000640657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Texture: {fileID: 2800000, guid: 5fbcdfa762d0bda4aab163bc3c4cf712, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1000640660
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1000640657}
+  m_CullTransparentMesh: 0
 --- !u!1 &1028910913
 GameObject:
   m_ObjectHideFlags: 0
@@ -1492,7 +1561,7 @@ RectTransform:
   m_Children:
   - {fileID: 1901789183}
   m_Father: {fileID: 358294483}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1613,11 +1682,11 @@ RectTransform:
   m_LocalScale: {x: 0.6000004, y: 0.5000047, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 4
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 63.49999, y: 66.6075}
+  m_AnchoredPosition: {x: 104, y: 66.6075}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1081127291
@@ -1684,7 +1753,7 @@ RectTransform:
   m_Children:
   - {fileID: 800182240}
   m_Father: {fileID: 358294483}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1807,7 +1876,7 @@ RectTransform:
   m_Children:
   - {fileID: 1705001206}
   m_Father: {fileID: 358294483}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2134,11 +2203,11 @@ RectTransform:
   m_LocalScale: {x: 0.6000002, y: 0.5000001, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -103.99999, y: 72.00748}
+  m_AnchoredPosition: {x: -150, y: 72.00748}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253548619
@@ -6827,7 +6896,7 @@ RectTransform:
   m_LocalScale: {x: 0.60000914, y: 0.5000047, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6896,7 +6965,7 @@ RectTransform:
   m_LocalScale: {x: 0.49999994, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6964,7 +7033,7 @@ RectTransform:
   m_LocalScale: {x: 0.6000002, y: 0.5000001, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7020,7 +7089,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1555031363
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7032,11 +7101,11 @@ RectTransform:
   m_LocalScale: {x: 0.6000002, y: 0.5000001, z: 1}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 2
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 56, y: 82.807495}
+  m_AnchoredPosition: {x: 10, y: 82.807495}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1555031364
@@ -7176,7 +7245,7 @@ RectTransform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 358294483}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

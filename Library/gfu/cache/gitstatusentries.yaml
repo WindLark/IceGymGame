@@ -12,18 +12,84 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-18T19:45:50.647-05:00
-  initializedAtString: 2018-12-18T15:52:35.574-05:00
+  lastUpdatedAtString: 2018-12-19T09:57:27.365-05:00
+  initializedAtString: 2018-12-19T08:03:17.425-05:00
   entries:
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: D:\Unity\IceGymGame\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Models\MilkCarton\Materials\orangejuice.mat
+    fullPath: D:\Unity\IceGymGame\Assets\Models\MilkCarton\Materials\orangejuice.mat
+    projectPath: Assets\Models\MilkCarton\Materials\orangejuice.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Models\MilkCarton\Materials\orangejuice.mat.meta
+    fullPath: D:\Unity\IceGymGame\Assets\Models\MilkCarton\Materials\orangejuice.mat.meta
+    projectPath: Assets\Models\MilkCarton\Materials\orangejuice.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Models\MilkCarton\orangejuice.png
+    fullPath: D:\Unity\IceGymGame\Assets\Models\MilkCarton\orangejuice.png
+    projectPath: Assets\Models\MilkCarton\orangejuice.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Models\MilkCarton\orangejuice.png.meta
+    fullPath: D:\Unity\IceGymGame\Assets\Models\MilkCarton\orangejuice.png.meta
+    projectPath: Assets\Models\MilkCarton\orangejuice.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\HelpMenu.unity
+    fullPath: D:\Unity\IceGymGame\Assets\Scenes\HelpMenu.unity
+    projectPath: Assets\Scenes\HelpMenu.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scenes\Level3.unity
+    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level3.unity
+    projectPath: Assets\Scenes\Level3.unity
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Assets\Scripts\BoardController.cs
     fullPath: D:\Unity\IceGymGame\Assets\Scripts\BoardController.cs
     projectPath: Assets\Scripts\BoardController.cs
     originalPath: 
     status: 3
     staged: 0
+  - path: IceGymGame.userprefs
+    fullPath: D:\Unity\IceGymGame\IceGymGame.userprefs
+    projectPath: IceGymGame.userprefs
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\assetDatabase3
     fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
     projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: D:\Unity\IceGymGame\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\EditorInstance.json
+    fullPath: D:\Unity\IceGymGame\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\expandedItems
+    fullPath: D:\Unity\IceGymGame\Library\expandedItems
+    projectPath: Library\expandedItems
     originalPath: 
     status: 3
     staged: 0
@@ -57,11 +123,29 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\LastBuild.buildreport
-    fullPath: D:\Unity\IceGymGame\Library\LastBuild.buildreport
-    projectPath: Library\LastBuild.buildreport
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: D:\Unity\IceGymGame\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\03\036070a863aef8b4089b4766b9175a02
+    fullPath: D:\Unity\IceGymGame\Library\metadata\03\036070a863aef8b4089b4766b9175a02
+    projectPath: Library\metadata\03\036070a863aef8b4089b4766b9175a02
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\03\036070a863aef8b4089b4766b9175a02.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\03\036070a863aef8b4089b4766b9175a02.info
+    projectPath: Library\metadata\03\036070a863aef8b4089b4766b9175a02.info
+    originalPath: 
+    status: 1
     staged: 0
   - path: Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
     fullPath: D:\Unity\IceGymGame\Library\metadata\16\166077c36577c904a8ee83a3e3d9e114
@@ -69,57 +153,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\PlayerDataCache\Win64\Data\globalgamemanagers
-    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\globalgamemanagers
-    projectPath: Library\PlayerDataCache\Win64\Data\globalgamemanagers
+  - path: Library\metadata\e2\e21acd51671929f45aeeba5fd4e2cebf
+    fullPath: D:\Unity\IceGymGame\Library\metadata\e2\e21acd51671929f45aeeba5fd4e2cebf
+    projectPath: Library\metadata\e2\e21acd51671929f45aeeba5fd4e2cebf
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Win64\Data\level0
-    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level0
-    projectPath: Library\PlayerDataCache\Win64\Data\level0
+  - path: Library\metadata\e2\e21acd51671929f45aeeba5fd4e2cebf.info
+    fullPath: D:\Unity\IceGymGame\Library\metadata\e2\e21acd51671929f45aeeba5fd4e2cebf.info
+    projectPath: Library\metadata\e2\e21acd51671929f45aeeba5fd4e2cebf.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Win64\Data\level1
-    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level1
-    projectPath: Library\PlayerDataCache\Win64\Data\level1
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win64\Data\level2
-    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level2
-    projectPath: Library\PlayerDataCache\Win64\Data\level2
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win64\Data\level3
-    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level3
-    projectPath: Library\PlayerDataCache\Win64\Data\level3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win64\Data\level4
-    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level4
-    projectPath: Library\PlayerDataCache\Win64\Data\level4
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win64\Data\level5
-    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level5
-    projectPath: Library\PlayerDataCache\Win64\Data\level5
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win64\Data\level6
-    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level6
-    projectPath: Library\PlayerDataCache\Win64\Data\level6
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
-    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
-    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+  - path: Library\ProjectSettings.asset
+    fullPath: D:\Unity\IceGymGame\Library\ProjectSettings.asset
+    projectPath: Library\ProjectSettings.asset
     originalPath: 
     status: 3
     staged: 0
@@ -132,6 +180,54 @@ MonoBehaviour:
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe6.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
     originalPath: 
     status: 3
     staged: 0
