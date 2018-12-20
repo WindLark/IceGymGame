@@ -12,9 +12,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-20T13:04:22.283-05:00
+  lastUpdatedAtString: 2018-12-20T14:12:13.785-05:00
   initializedAtString: 2018-12-20T12:08:06.287-05:00
   log:
+  - commitID: b39f8408b3590676dfa449242b3c18c519da01f7
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: Level 4 Rework
+    description: "Level 4 Rework\r\n\r\nBlocks that shift are now indicataed by popsicles
+      instead.\r\n\r\nNote: there's a somewhat troublesome pair of box colliders in
+      the bottom two right popsicles that produces some extra sliding but it doesn't
+      affect core gameplay currently"
+    timeString: 2018-12-20T14:10:44.000-05:00
+    commitTimeString: 2018-12-20T14:10:44.000-05:00
+    changes:
+    - path: Assets\Scenes\Level4.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level4.unity
+      projectPath: Assets\Scenes\Level4.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\PlayerController.cs
+      fullPath: D:\Unity\IceGymGame\Assets\Scripts\PlayerController.cs
+      projectPath: Assets\Scripts\PlayerController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CrashedAssetImports.txt
+      fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
+      projectPath: Library\CrashedAssetImports.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+      fullPath: D:\Unity\IceGymGame\Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+      projectPath: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: a571c220a2063a811703fd096f86cc39874bbfd4
     mergeA: 
     mergeB: 

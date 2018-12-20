@@ -130,7 +130,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4044133613408256, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 3.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4044133613408256, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
       propertyPath: m_LocalRotation.x
@@ -155,6 +155,10 @@ Prefab:
     - target: {fileID: 1540135709800048, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
       propertyPath: m_Name
       value: carton_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044133613408256, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
@@ -2028,7 +2032,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4044133613408256, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 3.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4044133613408256, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2053,6 +2057,10 @@ Prefab:
     - target: {fileID: 1540135709800048, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
       propertyPath: m_Name
       value: carton_5_3D_Mode
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044133613408256, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
@@ -2666,7 +2674,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4044133613408256, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.5
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 4044133613408256, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2699,6 +2707,10 @@ Prefab:
     - target: {fileID: 1540135709800048, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
       propertyPath: m_Name
       value: carton_7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044133613408256, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
@@ -3394,7 +3406,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4044133613408256, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.5
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 4044133613408256, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
       propertyPath: m_LocalPosition.y
@@ -3427,6 +3439,10 @@ Prefab:
     - target: {fileID: 1540135709800048, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
       propertyPath: m_Name
       value: carton_7_3D_Mode
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044133613408256, guid: 4fb4702b881895a488126818809cf7f7, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fb4702b881895a488126818809cf7f7, type: 2}

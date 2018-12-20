@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-20T14:08:59.205-05:00
-  initializedAtString: 2018-12-20T11:50:08.442-05:00
+  lastUpdatedAtString: 2018-12-20T18:15:04.241-05:00
+  initializedAtString: 2018-12-20T18:10:57.971-05:00
   entries:
-  - path: Assets\Scenes\Level4.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level4.unity
-    projectPath: Assets\Scenes\Level4.unity
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: D:\Unity\IceGymGame\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\PlayerController.cs
-    fullPath: D:\Unity\IceGymGame\Assets\Scripts\PlayerController.cs
-    projectPath: Assets\Scripts\PlayerController.cs
+  - path: Assets\Scenes\Level1.unity
+    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level1.unity
+    projectPath: Assets\Scenes\Level1.unity
     originalPath: 
     status: 3
     staged: 0
@@ -33,11 +33,17 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\CrashedAssetImports.txt
-    fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
+  - path: Library\CurrentLayout.dwlt
+    fullPath: D:\Unity\IceGymGame\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
     originalPath: 
-    status: 1
+    status: 3
+    staged: 0
+  - path: Library\EditorInstance.json
+    fullPath: D:\Unity\IceGymGame\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 3
     staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
@@ -69,15 +75,153 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
-    fullPath: D:\Unity\IceGymGame\Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
-    projectPath: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: D:\Unity\IceGymGame\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+  - path: Library\LastBuild.buildreport
+    fullPath: D:\Unity\IceGymGame\Library\LastBuild.buildreport
+    projectPath: Library\LastBuild.buildreport
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: D:\Unity\IceGymGame\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\globalgamemanagers
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\globalgamemanagers
+    projectPath: Library\PlayerDataCache\Win64\Data\globalgamemanagers
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level0
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level0
+    projectPath: Library\PlayerDataCache\Win64\Data\level0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level1
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level1
+    projectPath: Library\PlayerDataCache\Win64\Data\level1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level2
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level2
+    projectPath: Library\PlayerDataCache\Win64\Data\level2
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level3
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level3
+    projectPath: Library\PlayerDataCache\Win64\Data\level3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level4
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level4
+    projectPath: Library\PlayerDataCache\Win64\Data\level4
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level5
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level5
+    projectPath: Library\PlayerDataCache\Win64\Data\level5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\level6
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\level6
+    projectPath: Library\PlayerDataCache\Win64\Data\level6
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\sharedassets3.assets
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\sharedassets3.assets
+    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets3.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\sharedassets3.assets.resS
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\sharedassets3.assets.resS
+    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets3.assets.resS
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\sharedassets4.assets
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\sharedassets4.assets
+    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets4.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\sharedassets5.assets
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\sharedassets5.assets
+    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets5.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Win64\Data\sharedassets6.assets
+    fullPath: D:\Unity\IceGymGame\Library\PlayerDataCache\Win64\Data\sharedassets6.assets
+    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets6.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe6.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: D:\Unity\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
     originalPath: 
     status: 3
     staged: 0
