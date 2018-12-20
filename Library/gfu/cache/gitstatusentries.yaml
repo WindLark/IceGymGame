@@ -12,42 +12,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-20T05:54:44.474-05:00
-  initializedAtString: 2018-12-19T19:55:09.139-05:00
-  entries:
-  - path: Library\CrashedAssetImports.txt
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
-    projectPath: Library\gfu\cache\gitstatusentries.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
-    projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
+  lastUpdatedAtString: 2018-12-20T12:05:08.713-05:00
+  initializedAtString: 2018-12-20T11:50:08.442-05:00
+  entries: []
