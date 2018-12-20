@@ -138,6 +138,16 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 	*/
+	/*
+	public void OnCollisionEnter(Collision collision) {
+		if(activated == true){
+			if (collision.collider.tag != "Enemy") {
+				Rigidbody rb = GetComponent<Rigidbody>();
+				rb.velocity = new Vector3(0, 0, 0);
+			}
+		}
+	}
+	*/
 
 	// and here's the method that will be used by the moving, trigger, collisionless enemies/sentries
 	public void OnTriggerEnter(Collider other) {

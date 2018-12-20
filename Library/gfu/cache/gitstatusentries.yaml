@@ -12,12 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-20T12:54:05.672-05:00
+  lastUpdatedAtString: 2018-12-20T14:08:59.205-05:00
   initializedAtString: 2018-12-20T11:50:08.442-05:00
   entries:
-  - path: Assets\Scenes\Level3.unity
-    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level3.unity
-    projectPath: Assets\Scenes\Level3.unity
+  - path: Assets\Scenes\Level4.unity
+    fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level4.unity
+    projectPath: Assets\Scenes\Level4.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\PlayerController.cs
+    fullPath: D:\Unity\IceGymGame\Assets\Scripts\PlayerController.cs
+    projectPath: Assets\Scripts\PlayerController.cs
     originalPath: 
     status: 3
     staged: 0
@@ -31,7 +37,7 @@ MonoBehaviour:
     fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
     projectPath: Library\CrashedAssetImports.txt
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
@@ -63,9 +69,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: D:\Unity\IceGymGame\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+    fullPath: D:\Unity\IceGymGame\Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+    projectPath: Library\metadata\dd\dd864f4f5a832604ca9f22633c86b357
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: D:\Unity\IceGymGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     originalPath: 
     status: 3
     staged: 0

@@ -12,9 +12,77 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-20T12:08:06.379-05:00
+  lastUpdatedAtString: 2018-12-20T13:04:22.283-05:00
   initializedAtString: 2018-12-20T12:08:06.287-05:00
   log:
+  - commitID: a571c220a2063a811703fd096f86cc39874bbfd4
+    mergeA: 
+    mergeB: 
+    authorName: Peter
+    authorEmail: peter.ly@stonybrook.edu
+    commitEmail: peter.ly@stonybrook.edu
+    commitName: Peter
+    summary: Enemies Updated in Level 3
+    description: "Enemies Updated in Level 3\r\n\r\nReworked Enemy Positions, I felt
+      there were too many situations where the player would have no choice but to
+      run into an enemy in 2D-only runs.\r\n\r\nEnemies in level 3 are now all wolfiefishes."
+    timeString: 2018-12-20T12:54:20.000-05:00
+    commitTimeString: 2018-12-20T12:54:20.000-05:00
+    changes:
+    - path: Assets\Scenes\Level3.unity
+      fullPath: D:\Unity\IceGymGame\Assets\Scenes\Level3.unity
+      projectPath: Assets\Scenes\Level3.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CrashedAssetImports.txt
+      fullPath: D:\Unity\IceGymGame\Library\CrashedAssetImports.txt
+      projectPath: Library\CrashedAssetImports.txt
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: D:\Unity\IceGymGame\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\IceGymGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 01f4306169d47d43bad1168ced16ea1ad69d6143
     mergeA: 
     mergeB: 
