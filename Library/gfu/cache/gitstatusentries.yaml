@@ -12,26 +12,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-20T05:53:21.293-05:00
+  lastUpdatedAtString: 2018-12-20T05:54:44.474-05:00
   initializedAtString: 2018-12-19T19:55:09.139-05:00
   entries:
-  - path: Assets\Scenes\Level3.unity
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assets\Scenes\Level3.unity
-    projectPath: Assets\Scenes\Level3.unity
+  - path: Library\CrashedAssetImports.txt
+    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scenes\Level4.unity
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Assets\Scenes\Level4.unity
-    projectPath: Assets\Scenes\Level4.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\assetDatabase3
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\assetDatabase3
-    projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\branches.yaml
@@ -60,18 +48,6 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\Patrick\Documents\GitHub\IceGymGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0
