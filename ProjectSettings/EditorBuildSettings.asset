@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level5.unity
     guid: 7c7a5deb3672ba048892588faef89455
+  - enabled: 0
+    path: Assets/Scenes/HelpMenu_Backup.unity
+    guid: dbaba6f3ec91c4c41b7289f7212f8881
+  - enabled: 1
+    path: Assets/Scenes/HelpMenu.unity
+    guid: 20851cc6daf70374fa190741c58c7e97
   m_configObjects: {}

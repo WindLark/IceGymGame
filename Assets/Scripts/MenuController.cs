@@ -7,16 +7,23 @@ public class MenuController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		GameObject help = GameObject.Find("HelpCanvas");
-		help.transform.GetChild (0).gameObject.SetActive(false);
-		GameObject LS = GameObject.Find("LevelSelectCanvas");
-		LS.transform.GetChild (0).gameObject.SetActive(false);
-		//help.GetComponent ("Panel").enabled = false;
+		if (SceneManager.GetActiveScene ().name == "MainMenu") {
+			//GameObject help = GameObject.Find("HelpCanvas");
+			//help.transform.GetChild (0).gameObject.SetActive(false);
+			GameObject LS = GameObject.Find ("LevelSelectCanvas");
+			LS.transform.GetChild (0).gameObject.SetActive (false);
+			//help.GetComponent ("Panel").enabled = false;
+		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+
+		if (Input.GetKeyDown (KeyCode.Escape)) {
+			if(SceneManager.GetActiveScene().name!="MainMenu"){
+				SceneManager.LoadSceneAsync ("MainMenu");
+			}
+		}
 	}
 
 	public void startTheGame(){

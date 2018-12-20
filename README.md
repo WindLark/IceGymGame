@@ -15,6 +15,6 @@ Jelly Cube might discover pathways that weren't there before, rotate the
 field, or do other wild things with his dimension hopping abilities.
 
 ## Credits
-* Peter Ly - Developer, Graphics Modeler, Sound and Music
-* Patrick Wszeborowski - Developer
+* Peter Ly - Developer, Graphics Modeler, Sound and Music, Level Design
+* Patrick Wszeborowski - Developer, Enemy Designer, Level Design
 * Michael Witkovsky - For providing the Wolfie Fish model that is used for the game's enemies.
